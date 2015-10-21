@@ -1,0 +1,9 @@
+        <h2>当地Privoxy支持:</h2>
+
+<!-- @if-have-proxy-info-start -->
+        <p>您可以参考<a href="@proxy-info-url@">在线文档</a>了解更多的信息关于这个Privoxy安装。</p>
+<!-- if-have-proxy-info-end@ -->
+
+<!-- @if-have-adminaddr-info-start -->
+        <p>地址的电子邮件质疑这Privoxy安装到<a href="mailto:@admin-address@"><code>@admin-address@</code></a>, 他会很高兴帮助你。</p>
+<!-- if-have-adminaddr-info-end@ -->

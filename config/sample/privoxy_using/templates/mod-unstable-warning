@@ -1,0 +1,5 @@
+        <h2>警告:</h2>
+        <p>
+          <strong>这个 Privoxy 版本是基于 <em class="warning">@code-status@</em> 代码并不适用于生产系统 ！
+          <br>使用需要您自担风险, <a title="GNU General Public License version 2" href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">license</a> 详细信息请参阅。</strong>
+        </p>

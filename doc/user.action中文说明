@@ -1,0 +1,146 @@
+######################################################################
+#
+#  文件       :  源文件: /cvsroot/ijbswa/current/user.action,v
+#
+#  Id: user.action,v
+#
+#  目的     :  用户维护的 actions 文件, 见
+#              http://www.privoxy.org/user-manual/actions-file.html
+#
+######################################################################
+
+#这个文件用来添加你自己的例外规则和添加附加的拦截规则
+#在default.action更新时，自己添加规则不会受影响
+#且所定义的操作（defined action）执行优先级较高
+
+#详情见http://www.privoxy.org/user-manual/actions-file.html或者default.action文件内的注释
+#以了解什么是action（暂理解为触发规则）和每个action各起什么作用
+
+#此处举例用时用的网站（域名）是假的（如：www.example.com）
+#被注销掉的规则前面都会有个“#”，所以该规则不发生作用
+#为了方便，有用的alias（设置命令别名，可以理解为定义的名字）都放在顶部
+
+#############################################################################
+# Aliases
+#############################################################################
+{{alias}}
+#############################################################################
+#
+#你可以用一条短的形式来定义一系列允许的权限，如：
+# "-crunch-incoming-cookies -crunch-outgoing-cookies -filter -fast-redirects"
+#你可以只用一个“shop”来命名一个alias定义
+#
+#目前alias可以使用任意的字符，除外：空格、Tab（换行）、‘=’（等号） 、‘,’（逗号）、‘{’、‘}’
+#但是最好使用a ~ z这些字母或者0~9这些数字；‘+’‘-’（加号和减号）也可以
+#
+#Aliasd的名字不区分大小写（不支持使用中文）
+#
+#带有用‘+’‘-’（加、减号）开头的alias可能在后续版本中（现在不影响）用于system action
+#所以尽量避免用‘+’‘-’开头命名alias
+#如："+crunch-all-cookies" 这样的命名尽量不用
+#
+#alias必须定义了之后才可以生效
+#
++crunch-all-cookies = +crunch-incoming-cookies +crunch-outgoing-cookies
+-crunch-all-cookies = -crunch-incoming-cookies -crunch-outgoing-cookies
+ allow-all-cookies  = -crunch-all-cookies -session-cookies-only -filter{content-cookies}
+ allow-popups       = -filter{all-popups} -filter{unsolicited-popups}
++block-as-image     = +block{Blocked image request.} +handle-as-image
+-block-as-image     = -block
+
+#这些组合定义的alias对应的action适用与一些特定类型的网页
+#
+fragile     = -block -crunch-all-cookies -filter -fast-redirects -hide-referer -prevent-compression
+shop        = -crunch-all-cookies allow-popups
+
+#你最爱的（favourite，或理解为自己用的更贴切）混合过滤器（filter，意为拦截规则）
+myfilters   = +filter{html-annoyances} +filter{js-annoyances} +filter{all-popups}\
+              +filter{webbugs} +filter{banners-by-size}
+
+#允许一些指定网站的广告：（需要‘去注销’对应的网站）
+#
+allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
+#.sourceforge.net
+#sunsolve.sun.com
+#slashdot.org
+#.yahoo.com
+#.msdn.microsoft.com
+#.redhat.com
+
+#对于一些网站你自己选择默认阻止弹出窗口（popu windows），但你的homebanking（家庭银行，同银行网站吧）
+#需要放行弹窗这种情况：如允许-example-bank.com的弹窗
+#
+{ -filter{all-popups} }
+.banking.example.com
+
+#一些host（主机，理解成网站可以嗯？）和一些类型的文件要放行时：
+#
+{-filter}
+
+#技术型文档一般包含一些字符串（strings）
+#这些字符串可能被JS重定向（JavaScript-oriented）filter改变而导致错误出现
+#
+#.tldp.org
+#/(.*/)?selfhtml/
+
+#这些很屎的（stupid）host以错误的MIME类型发送一些流媒体视频
+#导致Priovxy认为这些流媒体是获取HTML的，然后挂掉它了
+#
+stupid-server.example.com
+
+#一些简单拦截操作（“block”action）的应用：
+#如，在www.example.com看到一些广告，要挂掉这些广告的话，右键这些广告图片，选择“复制图片地址”
+#然后把图片地址粘贴到下面{ +block{reason} }的规则里（这里的reason写自己的原因，比如“百度推广”）
+#当然这个图片地址要时以“http://”开头的
+#注意：如果图片地址时以.gif结尾的，不管怎么样它都会被default.acton里的通用规则标记为图片，
+#此时{ +handle-as-image }不需要设定
+#
+{ +block{Nasty ads.} }
+www.example.com/nasty-ads/sponsor.gif
+
+#一些滚动横幅形式的广告图片一般不会用常见的图片文件扩展名，造成Privoxy无法以图片过滤的方法干掉它们
+#此时只能通过URL来过滤了，比如：用 +block-as-image这种alias定义来对付这些横幅广告
+#注意：这种启用规则一般会把这些横幅广告干掉，但是浏览器页面会显示一个图片缺失的图标（"broken image"）
+#所以使用时要注意了
+#
+{ +block-as-image }
+#.doubleclick.net
+#/Realmedia/ads/
+#ar.atwola.com/
+
+#如果默认的设置会影响正常的网站（比如Forbes Magazine——福布斯周刊）
+#虽然很操蛋 但你又懒得要死，既不反馈给Privoxy开放人员，有不肯自己排查错误的规则
+#所以，如下。懒人办法：通过设定fragile alias来放行这些被误杀的网站。
+#从这里可以看出，fragile alias既可以用了放行，也可以用了逐个排查规则（懒人一般不用理会这个）
+#
+{fragile}
+#/
+
+#使用下面的条目来改写和重定向news.google.com的（click-tracking）跟踪链接
+#干掉JS（JavaScript）的话这个效果会更好，更加可靠也说不定
+#
+# Redirected URL = http://news.google.com/news/url?ct2=us%2F0_0_s_1_1_a&sa=t&usg=AFQjCNHJWPc7ffoSXPSqBRz55jDA0KgxOQ&cid=8797762374160&url=http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB10001424052970204485304576640791304008536.html&ei=YcqeTsymCIjxggf8uQE&rt=HOMEPAGE&vm=STANDARD&bvm=section&did=-6537064229385238098
+# Redirect Destination = http://online.wsj.com/article/SB10001424052970204485304576640791304008536.html
+# Redirect Destination = http://online.wsj.com/article/SB10001424052970204485304576640791304008536.html
+# Ignore = Yes
+#
+#{+fast-redirects{check-decoded-url}}
+#news.google.com/news/url.*&url=http.*&
+
+#使用下面的条目来拦截facebook上大量的“like”和相似的trackingURLs（跟踪链接）（同样的道理，在微博页面应该应用）
+#同时这些添加的条目不能破坏网页的加载，因为网页会改版，所以你自己要做一些相应的调整
+#如果倾向拦截整个域名，那么：
+# Blocked URL = http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Ffacebook.com%2Farstechnica&width=300&colorscheme=light&show_faces=false&stream=false&header=false&height=62&border_color=%23FFFFFF
+# Ignore = Yes
+# Blocked URL = http://www.facebook.com/plugins/activity.php?site=arstechnica.com&width=300&height=370&header=false&colorscheme=light&recommendations=false&border_color=%23FFFFFF
+# Ignore = Yes
+# Blocked URL = http://www.facebook.com/plugins/fan.php?api_key=368513495882&connections=10&height=250&id=8304333127&locale=en_US&sdk=joey&stream=false&width=377
+# Ignore = Yes
+# Blocked URL = http://www.facebook.com/plugins/like.php?api_key=368513495882&channel_url=http%3A%2F%2Fstatic.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Df13997452c%26origin%3Dhttp%253A%252F%252Fonline.wsj.com%252Ff1b037e354%26relation%3Dparent.parent%26transport%3Dpostmessage&extended_social_context=false&href=http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB10001424052970204485304576640791304008536.html&layout=button_count&locale=en_US&node_type=link&ref=wsj_share_FB&sdk=joey&send=false&show_faces=false&width=90
+# Ignore = Yes
+#
+#{+block{Facebook "like" and similar tracking URLs.}}
+#www.facebook.com/(extern|plugins)/(login_status|like(box)?|activity|fan)\.php
+
+##########################################
+###注解结束，have fun！！###

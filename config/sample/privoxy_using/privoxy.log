@@ -1,0 +1,1301 @@
+2015-10-21 16:02:34.392 00001b74 Info: Privoxy version 3.0.23
+2015-10-21 16:02:34.396 00001b74 Info: Program name: D:\WinPath\desktop\privoxy1\privoxy\config\sample\privoxy_using\privoxy.exe
+2015-10-21 16:02:34.401 00001b74 Info: Loading filter file: .\default.filter
+2015-10-21 16:02:34.410 00001b74 Info: Loading filter file: .\user.filter
+2015-10-21 16:02:34.412 00001b74 Info: Loading filter file: .\other/ab2p.filter
+2015-10-21 16:02:34.593 00001b74 Info: Loading filter file: .\other/ab2p.system.filter
+2015-10-21 16:02:34.598 00001b74 Info: Loading filter file: .\other/my.filter
+2015-10-21 16:02:34.601 00001b74 Fatal error: can't load re_filterfile '.\other/css.filter': (error number 2)
+2015-10-21 16:02:42.986 00001eb4 Info: Privoxy version 3.0.23
+2015-10-21 16:02:42.990 00001eb4 Info: Program name: D:\WinPath\desktop\privoxy1\privoxy\config\sample\privoxy_using\privoxy.exe
+2015-10-21 16:02:42.992 00001eb4 Info: Loading filter file: .\default.filter
+2015-10-21 16:02:43.002 00001eb4 Info: Loading filter file: .\user.filter
+2015-10-21 16:02:43.004 00001eb4 Info: Loading filter file: .\other/ab2p.filter
+2015-10-21 16:02:43.183 00001eb4 Info: Loading filter file: .\other/ab2p.system.filter
+2015-10-21 16:02:43.186 00001eb4 Info: Loading filter file: .\other/my.filter
+2015-10-21 16:02:43.188 00001eb4 Info: Loading filter file: .\other/css.filter
+2015-10-21 16:02:43.228 00001eb4 Info: Loading actions file: .\match-all.action
+2015-10-21 16:02:43.230 00001eb4 Info: Loading actions file: .\default.action
+2015-10-21 16:02:43.251 00001eb4 Info: Loading actions file: .\user.action
+2015-10-21 16:02:43.259 00001eb4 Fatal error: can't load actions file '.\css.action': (error number 2). Note that beginning with Privoxy 3.0.7, actions files have to be specified with their complete file names.
+2015-10-21 16:03:28.186 00002280 Info: Privoxy version 3.0.23
+2015-10-21 16:03:28.188 00002280 Info: Program name: D:\WinPath\desktop\privoxy1\privoxy\config\sample\privoxy_using\privoxy.exe
+2015-10-21 16:03:28.191 00002280 Info: Loading filter file: .\default.filter
+2015-10-21 16:03:28.201 00002280 Info: Loading filter file: .\user.filter
+2015-10-21 16:03:28.203 00002280 Info: Loading filter file: .\other/ab2p.filter
+2015-10-21 16:03:28.389 00002280 Info: Loading filter file: .\other/ab2p.system.filter
+2015-10-21 16:03:28.392 00002280 Info: Loading filter file: .\other/my.filter
+2015-10-21 16:03:28.394 00002280 Info: Loading filter file: .\other/css.filter
+2015-10-21 16:03:28.433 00002280 Info: Loading actions file: .\match-all.action
+2015-10-21 16:03:28.435 00002280 Info: Loading actions file: .\default.action
+2015-10-21 16:03:28.455 00002280 Info: Loading actions file: .\user.action
+2015-10-21 16:03:28.462 00002280 Info: Loading actions file: .\other/css.action
+2015-10-21 16:03:28.514 00002280 Info: Loading actions file: .\other/ab2p.action
+2015-10-21 16:03:31.820 00002280 Info: Loading actions file: .\other/ab2p.system.action
+2015-10-21 16:03:31.823 00002280 Info: Loading actions file: .\other/my.action
+2015-10-21 16:03:31.834 00002280 Info: Listening on port 8118 on IP address 127.0.0.1
+2015-10-21 16:03:32.164 00001c30 Request: qt.gtimg.cn/r=0.4184410758316517q=s_r_hkHSI,r_hkHSI
+2015-10-21 16:03:33.786 000011b4 Request: mat1.gtimg.com/finance/js/st/p/qq2011/rwin_v20140919145917.js
+127.0.0.1 - - [21/Oct/2015:16:03:33 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/rwin_v20140919145917.js HTTP/1.1" 200 0
+2015-10-21 16:03:33.930 000011b4 Request: mat1.gtimg.com/finance/js/st/p/qq2011/tabs4_v20120709111644.js
+127.0.0.1 - - [21/Oct/2015:16:03:33 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/tabs4_v20120709111644.js HTTP/1.1" 200 0
+2015-10-21 16:03:34.059 00001eac Request: tj5.3lsoft.com/server_time
+127.0.0.1 - - [21/Oct/2015:16:03:34 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:03:34.215 000021d0 Request: message.finance.qq.com/tips/get_msg_num.php?uid=539877449&name=pstock&0.4288347775582224
+2015-10-21 16:03:34.362 000023c8 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=211&iSta=0&iTy=292&iFlow=36893341&iRand=89240579
+127.0.0.1 - - [21/Oct/2015:16:03:34 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=211&iSta=0&iTy=292&iFlow=36893341&iRand=89240579 HTTP/1.1" 403 43
+2015-10-21 16:03:35.713 00002358 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:03:37.180 000020d4 Request: qt.gtimg.cn/r=0.6995892955455929q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:03:37 +0800] "GET http://qt.gtimg.cn/r=0.6995892955455929q=s_r_hkHSI,r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:03:37.252 00001f60 Request: p5.yunpan.360.cn/ClientPush/poll?qid=25024944&devid=faf3c065e6e7592191411d8035ec9c91&ver=112474&rtick=91883749&
+2015-10-21 16:03:40.294 0000213c Request: a.wunderlist.com:443/
+2015-10-21 16:03:41.669 00001ff8 Request: socket.wunderlist.com:443/
+2015-10-21 16:03:53.273 00001c30 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:03:53.276 00001c30 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:03:53.277 00001c30 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:03:53.278 00001c30 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:03:53.280 00001c30 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:03:53.282 00001c30 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:03:53.284 00001c30 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:03:53.287 00001c30 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:03:53.298 00001c30 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:03:53.299 00001c30 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:03:53.301 00001c30 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:03:53.303 00001c30 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:03:53.304 00001c30 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:03:53.305 00001c30 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:03:53.306 00001c30 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:03:53.308 00001c30 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:03:53.309 00001c30 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:03:53.310 00001c30 CGI: Substituting: s/@host@/qt.gtimg.cn/sigTU
+2015-10-21 16:03:53.311 00001c30 CGI: Substituting: s/@hostport@/qt.gtimg.cn/sigTU
+2015-10-21 16:03:53.313 00001c30 CGI: Substituting: s/@path@//r=0.4184410758316517q=s_r_hkHSI,r_hkHSI/sigTU
+2015-10-21 16:03:53.315 00001c30 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:03:53.317 00001c30 CGI: Substituting: s/@host-ip@/101.226.103.108/sigTU
+2015-10-21 16:03:53.319 00001c30 Crunch: Connection failure: http://qt.gtimg.cn/r=0.4184410758316517q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:03:53 +0800] "GET http://qt.gtimg.cn/r=0.4184410758316517q=s_r_hkHSI,r_hkHSI HTTP/1.1" 503 8127
+2015-10-21 16:03:53.327 00001c30 Error: Couldn't deliver the error message through client socket 324: WSAECONNABORTED - Software caused connection abort.
+2015-10-21 16:03:55.230 000021d0 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:03:55.232 000021d0 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:03:55.234 000021d0 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:03:55.235 000021d0 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:03:55.236 000021d0 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:03:55.238 000021d0 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:03:55.242 000021d0 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:03:55.245 000021d0 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:03:55.256 000021d0 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:03:55.257 000021d0 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:03:55.261 000021d0 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:03:55.262 000021d0 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:03:55.263 000021d0 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:03:55.265 000021d0 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:03:55.266 000021d0 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:03:55.268 000021d0 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:03:55.269 000021d0 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:03:55.271 000021d0 CGI: Substituting: s/@host@/message.finance.qq.com/sigTU
+2015-10-21 16:03:55.272 000021d0 CGI: Substituting: s/@hostport@/message.finance.qq.com/sigTU
+2015-10-21 16:03:55.273 000021d0 CGI: Substituting: s/@path@//tips/get_msg_num.php?uid=539877449&amp;name=pstock&amp;0.4288347775582224/sigTU
+2015-10-21 16:03:55.275 000021d0 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:03:55.278 000021d0 CGI: Substituting: s/@host-ip@/101.226.68.82/sigTU
+2015-10-21 16:03:55.281 000021d0 Crunch: Connection failure: http://message.finance.qq.com/tips/get_msg_num.php?uid=539877449&name=pstock&0.4288347775582224
+127.0.0.1 - - [21/Oct/2015:16:03:55 +0800] "GET http://message.finance.qq.com/tips/get_msg_num.php?uid=539877449&name=pstock&0.4288347775582224 HTTP/1.1" 503 8316
+2015-10-21 16:03:55.290 000021d0 Error: Couldn't deliver the error message through client socket 544: WSAECONNABORTED - Software caused connection abort.
+2015-10-21 16:03:56.747 00002358 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:03:56.755 00002358 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:03:56.756 00002358 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:03:56.758 00002358 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:03:56.759 00002358 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:03:56.761 00002358 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:03:56.764 00002358 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:03:56.768 00002358 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:03:56.780 00002358 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:03:56.781 00002358 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:03:56.785 00002358 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:03:56.787 00002358 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:03:56.789 00002358 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:03:56.791 00002358 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:03:56.793 00002358 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:03:56.795 00002358 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:03:56.797 00002358 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:03:56.799 00002358 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:03:56.800 00002358 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:03:56.802 00002358 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:03:56.804 00002358 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:03:56.807 00002358 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:03:56.809 00002358 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:03:56 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:03:56.983 00001fc4 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:03:57 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+127.0.0.1 - - [21/Oct/2015:16:03:57 +0800] "CONNECT a.wunderlist.com:443 HTTP/1.1" 200 5822
+2015-10-21 16:03:57.351 0000218c Request: a.wunderlist.com:443/
+2015-10-21 16:04:07.176 00000504 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:04:13 +0800] "CONNECT a.wunderlist.com:443 HTTP/1.1" 200 539
+2015-10-21 16:04:13.352 00001d08 Request: a.wunderlist.com:443/
+2015-10-21 16:04:28.185 00000504 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:04:28.188 00000504 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:04:28.189 00000504 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:04:28.191 00000504 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:04:28.193 00000504 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:04:28.194 00000504 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:04:28.198 00000504 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:04:28.202 00000504 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:04:28.216 00000504 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:04:28.218 00000504 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:04:28.222 00000504 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:04:28.227 00000504 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:04:28.229 00000504 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:04:28.231 00000504 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:04:28.233 00000504 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:04:28.235 00000504 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:04:28.236 00000504 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:04:28.238 00000504 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:04:28.240 00000504 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:04:28.242 00000504 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:04:28.243 00000504 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:04:28.247 00000504 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:04:28.250 00000504 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:04:28 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:04:28.392 00002034 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:04:28 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:04:34.066 00000c5c Request: tj5.3lsoft.com/server_time
+127.0.0.1 - - [21/Oct/2015:16:04:34 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:04:38.580 00001c24 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:04:59.593 00001c24 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:04:59.596 00001c24 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:04:59.598 00001c24 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:04:59.600 00001c24 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:04:59.602 00001c24 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:04:59.604 00001c24 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:04:59.608 00001c24 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:04:59.614 00001c24 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:04:59.628 00001c24 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:04:59.629 00001c24 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:04:59.634 00001c24 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:04:59.635 00001c24 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:04:59.637 00001c24 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:04:59.639 00001c24 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:04:59.640 00001c24 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:04:59.643 00001c24 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:04:59.645 00001c24 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:04:59.647 00001c24 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:04:59.648 00001c24 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:04:59.650 00001c24 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:04:59.652 00001c24 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:04:59.657 00001c24 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:04:59.659 00001c24 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:04:59 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:05:00.197 0000234c Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:05:00 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:05:06.963 00001e24 Request: push.services.mozilla.com:443/
+2015-10-21 16:05:10.391 00001fb4 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:05:21.360 0000146c Request: ptlogin2.qq.com/qqstockpanel?pt_clientver=5443&pt_src=1&keyindex=9&clientuin=539877449&clientkey=00015627396C0068634D8B2BE28E44D2AE49ADF39206DF51D520B369E04B0A0C658797648A899AF613AF77B0C6C32D0525713D5A1C8D6FA3EA43E0883511A5067F5937F029D040C2BC0F3B7E7FF793B6B9A3FD24744DBDFE2D91CFE2E13C4E90F4E4FD075DECDF3168665C4E5FD53150&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536
+127.0.0.1 - - [21/Oct/2015:16:05:21 +0800] "GET http://ptlogin2.qq.com/qqstockpanel?pt_clientver=5443&pt_src=1&keyindex=9&clientuin=539877449&clientkey=00015627396C0068634D8B2BE28E44D2AE49ADF39206DF51D520B369E04B0A0C658797648A899AF613AF77B0C6C32D0525713D5A1C8D6FA3EA43E0883511A5067F5937F029D040C2BC0F3B7E7FF793B6B9A3FD24744DBDFE2D91CFE2E13C4E90F4E4FD075DECDF3168665C4E5FD53150&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536 HTTP/1.1" 200 5
+2015-10-21 16:05:21.583 00001e50 Request: stockapp.finance.qq.com/panel2/index.php?check=4&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536
+127.0.0.1 - - [21/Oct/2015:16:05:21 +0800] "GET http://stockapp.finance.qq.com/panel2/index.php?check=4&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536 HTTP/1.1" 200 1808
+2015-10-21 16:05:22.124 00002048 Request: qt.gtimg.cn/r=0.666996619431302q=marketStat,stdunixtime,sh000001,r_hkHSI,usIXIC,s_sh000001,s_sz399001,s_r_hkHSI,s_usDJI
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://qt.gtimg.cn/r=0.666996619431302q=marketStat,stdunixtime,sh000001,r_hkHSI,usIXIC,s_sh000001,s_sz399001,s_r_hkHSI,s_usDJI HTTP/1.1" 200 1553
+2015-10-21 16:05:22.287 00001dc0 Request: mat1.gtimg.com/finance/js/st/p/qq2011/frame_v20150723113022.js
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/frame_v20150723113022.js HTTP/1.1" 200 0
+2015-10-21 16:05:22.539 00001da0 Request: news.gtimg.cn/lmnews.php?name=fi_news&q=txbp&n=3
+2015-10-21 16:05:22.579 00001e50 Request: stockapp.finance.qq.com/panel/qq_stk.php?nolog=1&printtype=js&action=show&check=2&uin=539877449
+2015-10-21 16:05:22.604 00001dc0 Request: mat1.gtimg.com/finance/js/st/p/s/pcweb/qq2011/0.0.1/js/promotion_cfg.js?_du_r_t=0.3611777708865702
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/s/pcweb/qq2011/0.0.1/js/promotion_cfg.js?_du_r_t=0.3611777708865702 HTTP/1.1" 200 280
+2015-10-21 16:05:22.646 00001c80 Request: mat1.gtimg.com/finance/st/g/fn-smartbox/fn-smartbox_1.19.2.js
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://mat1.gtimg.com/finance/st/g/fn-smartbox/fn-smartbox_1.19.2.js HTTP/1.1" 200 0
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://news.gtimg.cn/lmnews.php?name=fi_news&q=txbp&n=3 HTTP/1.1" 200 469
+2015-10-21 16:05:22.680 000017b0 Request: message.finance.qq.com/tips/get_msg_num.php?uid=539877449&r=0.24027219112031162&_du_r_t=0.09819008782505989
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://message.finance.qq.com/tips/get_msg_num.php?uid=539877449&r=0.24027219112031162&_du_r_t=0.09819008782505989 HTTP/1.1" 200 162
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://stockapp.finance.qq.com/panel/qq_stk.php?nolog=1&printtype=js&action=show&check=2&uin=539877449 HTTP/1.1" 200 106
+2015-10-21 16:05:22.897 00002210 Request: web.ifzq.finance.qq.com/other/tips/hastips/query?uin=539877449&_callback=NEWSTOCKPROXY14454147228161
+2015-10-21 16:05:22.898 000023ec Request: webstock.finance.qq.com/stockapp/zixuanguweb/stocklist?callback=NEWSTOCKPROXY14454147228150&app=web&range=group&uin=539877449
+127.0.0.1 - - [21/Oct/2015:16:05:22 +0800] "GET http://web.ifzq.finance.qq.com/other/tips/hastips/query?uin=539877449&_callback=NEWSTOCKPROXY14454147228161 HTTP/1.1" 200 266
+2015-10-21 16:05:23.096 000022b0 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=101&iSta=0&iTy=292&iFlow=24398095&iRand=13040528
+127.0.0.1 - - [21/Oct/2015:16:05:23 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=101&iSta=0&iTy=292&iFlow=24398095&iRand=13040528 HTTP/1.1" 403 43
+2015-10-21 16:05:23.527 00002128 Request: pingjs.qq.com/ping.js
+2015-10-21 16:05:23.591 00002128 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:05:23.596 00002128 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:05:23.601 00002128 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:05:23.608 00002128 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:05:23.613 00002128 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:05:23.616 00002128 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:05:23.624 00002128 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:05:23.633 00002128 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:05:23.660 00002128 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:05:23.663 00002128 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:05:23.673 00002128 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:05:23.677 00002128 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:05:23.680 00002128 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:05:23.684 00002128 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:05:23.686 00002128 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:05:23.689 00002128 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:05:23.692 00002128 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:05:23.695 00002128 CGI: Substituting: s/@force-prefix@//PRIVOXY-FORCE/sigTU
+2015-10-21 16:05:23.697 00002128 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:05:23.707 00002128 CGI: Substituting: s/@hostport@/pingjs.qq.com/sigTU
+2015-10-21 16:05:23.710 00002128 CGI: Substituting: s/@path@//ping.js/sigTU
+2015-10-21 16:05:23.712 00002128 CGI: Substituting: s/@path-ue@/%2Fping.js/sigTU
+2015-10-21 16:05:23.716 00002128 CGI: Substituting: s/@block-reason@/adblock rules/sigTU
+2015-10-21 16:05:23.720 00002128 Crunch: Blocked: http://pingjs.qq.com/ping.js
+127.0.0.1 - - [21/Oct/2015:16:05:23 +0800] "GET http://pingjs.qq.com/ping.js HTTP/1.1" 403 9543
+2015-10-21 16:05:26.496 00001c80 Request: mat1.gtimg.com/finance/js/st/p/qq2011/rwin_v20140919145917.js
+127.0.0.1 - - [21/Oct/2015:16:05:26 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/rwin_v20140919145917.js HTTP/1.1" 200 0
+2015-10-21 16:05:26.636 00001c80 Request: mat1.gtimg.com/finance/js/st/p/qq2011/tabs4_v20120709111644.js
+127.0.0.1 - - [21/Oct/2015:16:05:26 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/tabs4_v20120709111644.js HTTP/1.1" 200 0
+2015-10-21 16:05:26.809 000017b0 Request: message.finance.qq.com/tips/get_msg_num.php?uid=539877449&name=pstock&0.14896224928088486
+127.0.0.1 - - [21/Oct/2015:16:05:26 +0800] "GET http://message.finance.qq.com/tips/get_msg_num.php?uid=539877449&name=pstock&0.14896224928088486 HTTP/1.1" 200 195
+2015-10-21 16:05:27.030 000017b0 Request: message.finance.qq.com/tips/get_msg_list.php?name=pstock&uid=539877449&state=1&0.6113847410306334
+2015-10-21 16:05:27.080 000022b0 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=211&iSta=0&iTy=292&iFlow=64060060&iRand=46201717
+127.0.0.1 - - [21/Oct/2015:16:05:27 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=211&iSta=0&iTy=292&iFlow=64060060&iRand=46201717 HTTP/1.1" 403 43
+127.0.0.1 - - [21/Oct/2015:16:05:27 +0800] "GET http://message.finance.qq.com/tips/get_msg_list.php?name=pstock&uid=539877449&state=1&0.6113847410306334 HTTP/1.1" 200 2327
+2015-10-21 16:05:27.233 000017b0 Request: message.finance.qq.com/tips/set_msg_state.php?uid=539877449&name=pstock
+127.0.0.1 - - [21/Oct/2015:16:05:27 +0800] "GET http://message.finance.qq.com/tips/set_msg_state.php?uid=539877449&name=pstock HTTP/1.1" 200 65
+2015-10-21 16:05:27.521 00001274 Request: qt.gtimg.cn/r=0.2768126323353499q=r_hkHSI,s_r_hkHSI
+2015-10-21 16:05:27.544 000022b0 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=msg_num&iSta=0&iTy=174&iFlow=68816710&inum=9
+127.0.0.1 - - [21/Oct/2015:16:05:27 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=msg_num&iSta=0&iTy=174&iFlow=68816710&inum=9 HTTP/1.1" 403 43
+127.0.0.1 - - [21/Oct/2015:16:05:27 +0800] "GET http://qt.gtimg.cn/r=0.2768126323353499q=r_hkHSI,s_r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:05:31.405 00001fb4 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:05:31.408 00001fb4 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:05:31.410 00001fb4 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:05:31.412 00001fb4 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:05:31.415 00001fb4 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:05:31.417 00001fb4 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:05:31.423 00001fb4 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:05:31.429 00001fb4 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:05:31.449 00001fb4 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:05:31.451 00001fb4 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:05:31.456 00001fb4 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:05:31.459 00001fb4 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:05:31.461 00001fb4 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:05:31.464 00001fb4 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:05:31.466 00001fb4 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:05:31.470 00001fb4 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:05:31.472 00001fb4 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:05:31.475 00001fb4 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:05:31.477 00001fb4 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:05:31.479 00001fb4 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:05:31.482 00001fb4 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:05:31.489 00001fb4 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:05:31.492 00001fb4 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:05:31 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:05:32.237 0000204c Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:05:32 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:05:32.513 00001274 Request: qt.gtimg.cn/r=0.7154649335425347q=r_hkHSI,s_r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:05:32 +0800] "GET http://qt.gtimg.cn/r=0.7154649335425347q=r_hkHSI,s_r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:05:34.115 00002380 Request: tj5.3lsoft.com/server_time
+2015-10-21 16:05:34.881 00001f6c Request: mat1.gtimg.com/finance/st/p/stock-diy/stock-diy_1.18.css
+2015-10-21 16:05:34.897 000022ec Request: mat1.gtimg.com/finance/js/st/p/qq2011/calendar_v20120208134544.js
+2015-10-21 16:05:34.905 000023ec Info: Can not resolve webstock.finance.qq.com: No such host is known. 
+127.0.0.1 - - [21/Oct/2015:16:05:34 +0800] "GET http://mat1.gtimg.com/finance/st/p/stock-diy/stock-diy_1.18.css HTTP/1.1" 200 0
+127.0.0.1 - - [21/Oct/2015:16:05:34 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/calendar_v20120208134544.js HTTP/1.1" 200 0
+2015-10-21 16:05:34.935 000023ec CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:05:34.937 000023ec CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:05:34.940 000023ec CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:05:34.943 000023ec CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:05:34.945 000023ec CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:05:34.948 000023ec CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:05:34.950 00001a38 Request: message.finance.qq.com/tips/get_msg_list.php?name=pstock&uid=539877449&type=1&seq=1&count=10&0.01714984606951475
+2015-10-21 16:05:34.954 000023ec CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:05:34.962 000023ec CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:05:34.987 000023ec CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:05:34.989 000023ec CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:05:34.996 000023ec CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:05:34.998 000023ec CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:05:35.000 000023ec CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:05:35.003 000023ec CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:05:35.005 000023ec CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:05:35.008 000023ec CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:05:35.010 000023ec CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:05:35.013 000023ec CGI: Substituting: s/@host@/webstock.finance.qq.com/sigTU
+2015-10-21 16:05:35.016 000023ec CGI: Substituting: s/@hostport@/webstock.finance.qq.com/sigTU
+2015-10-21 16:05:35.019 000023ec CGI: Substituting: s/@path@//stockapp/zixuanguweb/stocklist?callback=NEWSTOCKPROXY14454147228150&amp;app=web&amp;range=group&amp;uin=539877449/sigTU
+2015-10-21 16:05:35.022 000023ec CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:05:35.031 000023ec CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:05:35.034 000023ec Crunch: DNS failure: http://webstock.finance.qq.com/stockapp/zixuanguweb/stocklist?callback=NEWSTOCKPROXY14454147228150&app=web&range=group&uin=539877449
+127.0.0.1 - - [21/Oct/2015:16:05:35 +0800] "GET http://webstock.finance.qq.com/stockapp/zixuanguweb/stocklist?callback=NEWSTOCKPROXY14454147228150&app=web&range=group&uin=539877449 HTTP/1.1" 404 8751
+127.0.0.1 - - [21/Oct/2015:16:05:35 +0800] "GET http://message.finance.qq.com/tips/get_msg_list.php?name=pstock&uid=539877449&type=1&seq=1&count=10&0.01714984606951475 HTTP/1.1" 200 2327
+2015-10-21 16:05:35.166 000022ec Request: mat1.gtimg.com/finance/stock/images/smartbox-btn2.png
+127.0.0.1 - - [21/Oct/2015:16:05:35 +0800] "GET http://mat1.gtimg.com/finance/stock/images/smartbox-btn2.png HTTP/1.1" 200 0
+2015-10-21 16:05:35.488 00001784 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=browse_history&iSta=0&iTy=173&iFlow=47885820&iFrom=web
+2015-10-21 16:05:35.492 00001eb4 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=browse_stockmsg&iSta=0&iTy=173&iFlow=47904450&iFrom=web
+127.0.0.1 - - [21/Oct/2015:16:05:35 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=browse_history&iSta=0&iTy=173&iFlow=47885820&iFrom=web HTTP/1.1" 403 43
+127.0.0.1 - - [21/Oct/2015:16:05:35 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=browse_stockmsg&iSta=0&iTy=173&iFlow=47904450&iFrom=web HTTP/1.1" 403 43
+2015-10-21 16:05:36.763 00001eb4 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=empty&iSta=0&iTy=173&iFlow=61132342&iFrom=web
+127.0.0.1 - - [21/Oct/2015:16:05:36 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=empty&iSta=0&iTy=173&iFlow=61132342&iFrom=web HTTP/1.1" 403 43
+2015-10-21 16:05:37.346 00001a38 Request: message.finance.qq.com/tips/delete_msg.php?uid=539877449&type=1&name=pstock&r=0.37318029906600714
+2015-10-21 16:05:37.518 00001274 Request: qt.gtimg.cn/r=0.38294313685037196q=r_hkHSI,s_r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:05:37 +0800] "GET http://qt.gtimg.cn/r=0.38294313685037196q=r_hkHSI,s_r_hkHSI HTTP/1.1" 200 346
+127.0.0.1 - - [21/Oct/2015:16:05:37 +0800] "GET http://message.finance.qq.com/tips/delete_msg.php?uid=539877449&type=1&name=pstock&r=0.37318029906600714 HTTP/1.1" 200 66
+2015-10-21 16:05:42.461 000018f8 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:05:42.521 00001274 Request: qt.gtimg.cn/r=0.5901462098117918q=r_hkHSI,s_r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:05:42 +0800] "GET http://qt.gtimg.cn/r=0.5901462098117918q=r_hkHSI,s_r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:05:47.521 00001274 Request: qt.gtimg.cn/r=0.2828302741982043q=r_hkHSI,s_r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:05:47 +0800] "GET http://qt.gtimg.cn/r=0.2828302741982043q=r_hkHSI,s_r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:05:50.449 00001d10 Request: ptlogin2.qq.com/qqstockpanel?pt_clientver=5443&pt_src=1&keyindex=9&clientuin=539877449&clientkey=00015627396C0068634D8B2BE28E44D2AE49ADF39206DF51D520B369E04B0A0C658797648A899AF613AF77B0C6C32D0525713D5A1C8D6FA3EA43E0883511A5067F5937F029D040C2BC0F3B7E7FF793B6B9A3FD24744DBDFE2D91CFE2E13C4E90F4E4FD075DECDF3168665C4E5FD53150&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536
+127.0.0.1 - - [21/Oct/2015:16:05:50 +0800] "GET http://ptlogin2.qq.com/qqstockpanel?pt_clientver=5443&pt_src=1&keyindex=9&clientuin=539877449&clientkey=00015627396C0068634D8B2BE28E44D2AE49ADF39206DF51D520B369E04B0A0C658797648A899AF613AF77B0C6C32D0525713D5A1C8D6FA3EA43E0883511A5067F5937F029D040C2BC0F3B7E7FF793B6B9A3FD24744DBDFE2D91CFE2E13C4E90F4E4FD075DECDF3168665C4E5FD53150&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536 HTTP/1.1" 200 5
+2015-10-21 16:05:50.657 00001c68 Request: stockapp.finance.qq.com/panel2/index.php?check=4&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536
+127.0.0.1 - - [21/Oct/2015:16:05:50 +0800] "GET http://stockapp.finance.qq.com/panel2/index.php?check=4&ADUIN=539877449&ADSESSION=1445389937&ADTAG=CLIENT.QQ.5443_Appbox.0&ADPUBNO=26536 HTTP/1.1" 200 1808
+2015-10-21 16:05:51.147 00001274 Request: qt.gtimg.cn/r=0.8154290730599314q=marketStat,stdunixtime,sh000001,r_hkHSI,usIXIC,s_sh000001,s_sz399001,s_r_hkHSI,s_usDJI
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://qt.gtimg.cn/r=0.8154290730599314q=marketStat,stdunixtime,sh000001,r_hkHSI,usIXIC,s_sh000001,s_sz399001,s_r_hkHSI,s_usDJI HTTP/1.1" 200 1553
+2015-10-21 16:05:51.297 000022b4 Request: mat1.gtimg.com/finance/js/st/p/qq2011/frame_v20150723113022.js
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/qq2011/frame_v20150723113022.js HTTP/1.1" 200 0
+2015-10-21 16:05:51.508 000004fc Request: news.gtimg.cn/lmnews.php?name=fi_news&q=txbp&n=3
+2015-10-21 16:05:51.561 00001c68 Request: stockapp.finance.qq.com/panel/qq_stk.php?nolog=1&printtype=js&action=show&check=2&uin=539877449
+2015-10-21 16:05:51.581 00001ae4 Request: mat1.gtimg.com/finance/st/g/fn-smartbox/fn-smartbox_1.19.2.js
+2015-10-21 16:05:51.598 000022b4 Request: mat1.gtimg.com/finance/js/st/p/s/pcweb/qq2011/0.0.1/js/promotion_cfg.js?_du_r_t=0.09335399372503161
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://mat1.gtimg.com/finance/st/g/fn-smartbox/fn-smartbox_1.19.2.js HTTP/1.1" 200 0
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://news.gtimg.cn/lmnews.php?name=fi_news&q=txbp&n=3 HTTP/1.1" 200 0
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://mat1.gtimg.com/finance/js/st/p/s/pcweb/qq2011/0.0.1/js/promotion_cfg.js?_du_r_t=0.09335399372503161 HTTP/1.1" 200 280
+2015-10-21 16:05:51.639 0000208c Request: message.finance.qq.com/tips/get_msg_num.php?uid=539877449&r=0.6066480907611549&_du_r_t=0.556109058437869
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://stockapp.finance.qq.com/panel/qq_stk.php?nolog=1&printtype=js&action=show&check=2&uin=539877449 HTTP/1.1" 200 0
+2015-10-21 16:05:51.735 00001ec8 Request: webstock.finance.qq.com/stockapp/zixuanguweb/stocklist?callback=NEWSTOCKPROXY14454147516610&app=web&range=group&uin=539877449
+2015-10-21 16:05:51.737 00001b54 Request: web.ifzq.finance.qq.com/other/tips/hastips/query?uin=539877449&_callback=NEWSTOCKPROXY14454147516621
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://message.finance.qq.com/tips/get_msg_num.php?uid=539877449&r=0.6066480907611549&_du_r_t=0.556109058437869 HTTP/1.1" 200 143
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://web.ifzq.finance.qq.com/other/tips/hastips/query?uin=539877449&_callback=NEWSTOCKPROXY14454147516621 HTTP/1.1" 200 266
+127.0.0.1 - - [21/Oct/2015:16:05:51 +0800] "GET http://webstock.finance.qq.com/stockapp/zixuanguweb/stocklist?callback=NEWSTOCKPROXY14454147516610&app=web&range=group&uin=539877449 HTTP/1.1" 200 6357
+2015-10-21 16:05:52.084 0000222c Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=101&iSta=0&iTy=292&iFlow=14222343&iRand=86891747
+127.0.0.1 - - [21/Oct/2015:16:05:52 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=101&iSta=0&iTy=292&iFlow=14222343&iRand=86891747 HTTP/1.1" 403 43
+2015-10-21 16:05:52.377 00001274 Request: qt.gtimg.cn/r=0.1953560074325651q=s_sh000001,s_sz399001,s_sz399006,s_sh600050,s_sh600000,s_sz002701,s_sh600196,s_sz002014,s_sh600036,s_sh601398,s_sz002597,s_sh601857,s_sh601166,s_sh601998,s_sh601328,s_sh601288,s_sh601939,s_sh600251,s_sz002195,s_sz000651,s_sh601600,s_sz000683,s_sz000861,s_sh601001,s_sz300058,s_sz002003,s_sz002024,s_sh204001,sh000001,s_sh510050,s_r_hkHSI,s_r_hk00762,s_r_hk03968,s_r_hk01398,r_hkHSI,s_usDJI,usIXIC,s_jj000860,s_jj000540
+127.0.0.1 - - [21/Oct/2015:16:05:52 +0800] "GET http://qt.gtimg.cn/r=0.1953560074325651q=s_sh000001,s_sz399001,s_sz399006,s_sh600050,s_sh600000,s_sz002701,s_sh600196,s_sz002014,s_sh600036,s_sh601398,s_sz002597,s_sh601857,s_sh601166,s_sh601998,s_sh601328,s_sh601288,s_sh601939,s_sh600251,s_sz002195,s_sz000651,s_sh601600,s_sz000683,s_sz000861,s_sh601001,s_sz300058,s_sz002003,s_sz002024,s_sh204001,sh000001,s_sh510050,s_r_hkHSI,s_r_hk00762,s_r_hk03968,s_r_hk01398,r_hkHSI,s_usDJI,usIXIC,s_jj000860,s_jj000540 HTTP/1.1" 200 4030
+2015-10-21 16:05:52.563 00000ffc Request: pingjs.qq.com/ping.js
+2015-10-21 16:05:52.596 00000ffc CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:05:52.600 00000ffc CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:05:52.603 00000ffc CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:05:52.606 00000ffc CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:05:52.609 00000ffc CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:05:52.612 00000ffc CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:05:52.620 00000ffc CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:05:52.628 00000ffc CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:05:52.655 00000ffc CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:05:52.658 00000ffc CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:05:52.665 00000ffc CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:05:52.672 00000ffc CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:05:52.675 00000ffc CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:05:52.678 00000ffc CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:05:52.680 00000ffc CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:05:52.684 00000ffc CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:05:52.687 00000ffc CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:05:52.689 00000ffc CGI: Substituting: s/@force-prefix@//PRIVOXY-FORCE/sigTU
+2015-10-21 16:05:52.692 00000ffc CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:05:52.699 00000ffc CGI: Substituting: s/@hostport@/pingjs.qq.com/sigTU
+2015-10-21 16:05:52.702 00000ffc CGI: Substituting: s/@path@//ping.js/sigTU
+2015-10-21 16:05:52.705 00000ffc CGI: Substituting: s/@path-ue@/%2Fping.js/sigTU
+2015-10-21 16:05:52.708 00000ffc CGI: Substituting: s/@block-reason@/adblock rules/sigTU
+2015-10-21 16:05:52.711 00000ffc Crunch: Blocked: http://pingjs.qq.com/ping.js
+127.0.0.1 - - [21/Oct/2015:16:05:52 +0800] "GET http://pingjs.qq.com/ping.js HTTP/1.1" 403 9543
+2015-10-21 16:05:56.440 00001f8c Request: img2.gtimg.cn/images/hq_parts_little4/hushen/stocks/002701.png?1445414730
+127.0.0.1 - - [21/Oct/2015:16:05:56 +0800] "GET http://img2.gtimg.cn/images/hq_parts_little4/hushen/stocks/002701.png?1445414730 HTTP/1.1" 200 1272
+2015-10-21 16:05:56.591 00001274 Request: qt.gtimg.cn/r=0.5032439182978123q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:05:56 +0800] "GET http://qt.gtimg.cn/r=0.5032439182978123q=s_r_hkHSI,r_hkHSI HTTP/1.1" 200 346
+127.0.0.1 - - [21/Oct/2015:16:05:56 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:05:56.970 0000222c Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=63189795&iRand=30951015
+127.0.0.1 - - [21/Oct/2015:16:05:56 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=63189795&iRand=30951015 HTTP/1.1" 403 43
+2015-10-21 16:05:57.803 0000222c Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=71458986&iRand=68672494
+127.0.0.1 - - [21/Oct/2015:16:05:57 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=71458986&iRand=68672494 HTTP/1.1" 403 43
+2015-10-21 16:05:58.050 0000222c Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=74004281&iRand=70258698
+127.0.0.1 - - [21/Oct/2015:16:05:58 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=74004281&iRand=70258698 HTTP/1.1" 403 43
+2015-10-21 16:06:01.590 00001274 Request: qt.gtimg.cn/r=0.3490845407359302q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:06:01 +0800] "GET http://qt.gtimg.cn/r=0.3490845407359302q=s_r_hkHSI,r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:06:03.475 000018f8 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:06:03.485 000018f8 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:06:03.489 000018f8 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:06:03.492 000018f8 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:06:03.495 000018f8 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:06:03.498 000018f8 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:06:03.513 000018f8 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:06:03.520 000018f8 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:06:03.547 000018f8 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:06:03.550 000018f8 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:06:03.557 000018f8 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:06:03.560 000018f8 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:06:03.563 000018f8 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:06:03.566 000018f8 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:06:03.569 000018f8 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:06:03.572 000018f8 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:06:03.575 000018f8 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:06:03.578 000018f8 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:06:03.581 000018f8 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:06:03.584 000018f8 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:06:03.586 000018f8 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:06:03.594 000018f8 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:06:03.597 000018f8 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:06:03 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:06:04.230 00001ed8 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:06:06.592 00001274 Request: qt.gtimg.cn/r=0.3832418634556234q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:06:06 +0800] "GET http://qt.gtimg.cn/r=0.3832418634556234q=s_r_hkHSI,r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:06:07.613 00001ed8 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:06:07.626 00001ed8 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:06:07.630 00001ed8 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:06:07.633 00001ed8 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:06:07.637 00001ed8 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:06:07.640 00001ed8 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:06:07.644 00001ed8 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:06:07.651 00001ed8 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:06:07.659 00001ed8 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:06:07.687 00001ed8 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:06:07.691 00001ed8 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:06:07.699 00001ed8 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:06:07.702 00001ed8 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:06:07.705 00001ed8 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:06:07.708 00001ed8 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:06:07.711 00001ed8 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:06:07.714 00001ed8 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:06:07.717 00001ed8 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:06:07.720 00001ed8 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:06:07.723 00001ed8 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:06:07.727 00001ed8 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:06:07.730 00001ed8 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:06:07.738 00001ed8 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:06:07.742 00001ed8 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:06:07 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:06:11.594 00001274 Request: qt.gtimg.cn/r=0.4387157771270722q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:06:11 +0800] "GET http://qt.gtimg.cn/r=0.4387157771270722q=s_r_hkHSI,r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:06:16.594 00001274 Request: qt.gtimg.cn/r=0.7637881257105619q=s_r_hkHSI,r_hkHSI
+127.0.0.1 - - [21/Oct/2015:16:06:16 +0800] "GET http://qt.gtimg.cn/r=0.7637881257105619q=s_r_hkHSI,r_hkHSI HTTP/1.1" 200 346
+2015-10-21 16:06:17.961 000023a4 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:06:18.266 00002390 Request: img2.gtimg.cn/images/hq_parts_little4/hushen/indexs/000001.png?1445414760
+127.0.0.1 - - [21/Oct/2015:16:06:18 +0800] "GET http://img2.gtimg.cn/images/hq_parts_little4/hushen/indexs/000001.png?1445414760 HTTP/1.1" 200 1155
+2015-10-21 16:06:18.814 00002304 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=81373194&iRand=96997462
+127.0.0.1 - - [21/Oct/2015:16:06:18 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=81373194&iRand=96997462 HTTP/1.1" 403 43
+2015-10-21 16:06:18.851 00001f38 Crunch: Blocked: http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=81616587&iRand=87340340
+127.0.0.1 - - [21/Oct/2015:16:06:18 +0800] "GET http://btrace.qq.com/collect?sIp=&iQQ=539877449&sBiz=finance.stock.pstock&sOp=9009&iSta=0&iTy=292&iFlow=81616587&iRand=87340340 HTTP/1.1" 403 43
+2015-10-21 16:06:21.931 00001274 Request: qt.gtimg.cn/r=0.3601728139910847q=s_r_hkHSI,r_hkHSI,mbsh000001,mbsz399001,mbsz399006,mbsh600050,mbsh600000,mbsz002701,mbsh600196,mbsz002014,mbsh600036,mbsh601398,mbsz002597,mbsh601857,mbsh601166,mbsh601998,mbsh601328,mbsh601288,mbsh601939,mbsh600251,mbsz002195,mbsz000651,mbsh601600,mbsz000683,mbsz000861,mbsh601001,mbsz300058,mbsz002003,mbsz002024,mbsh204001
+127.0.0.1 - - [21/Oct/2015:16:06:21 +0800] "GET http://qt.gtimg.cn/r=0.3601728139910847q=s_r_hkHSI,r_hkHSI,mbsh000001,mbsz399001,mbsz399006,mbsh600050,mbsh600000,mbsz002701,mbsh600196,mbsz002014,mbsh600036,mbsh601398,mbsz002597,mbsh601857,mbsh601166,mbsh601998,mbsh601328,mbsh601288,mbsh601939,mbsh600251,mbsz002195,mbsz000651,mbsh601600,mbsz000683,mbsz000861,mbsh601001,mbsz300058,mbsz002003,mbsz002024,mbsh204001 HTTP/1.1" 200 1525
+2015-10-21 16:06:30.344 00001608 Request: www.baidu.com:443/
+2015-10-21 16:06:30.845 00002354 Request: ss0.bdstatic.com:443/
+2015-10-21 16:06:31.253 00001948 Request: ss1.bdstatic.com:443/
+2015-10-21 16:06:31.870 000021c8 Request: sp0.baidu.com:443/
+2015-10-21 16:06:32.722 000019c0 Request: sp3.baidu.com:443/
+2015-10-21 16:06:32.919 00001db4 Request: www.baidu.com:443/
+2015-10-21 16:06:34.138 00000734 Request: tj5.3lsoft.com/server_time
+2015-10-21 16:06:38.981 000023a4 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:06:38.987 000023a4 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:06:38.990 000023a4 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:06:38.994 000023a4 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:06:38.998 000023a4 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:06:39.002 000023a4 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:06:39.033 000023a4 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:06:39.048 000023a4 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:06:39.097 000023a4 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:06:39.101 000023a4 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:06:39.114 000023a4 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:06:39.119 000023a4 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:06:39.124 000023a4 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:06:39.127 000023a4 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:06:39.131 000023a4 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:06:39.134 000023a4 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:06:39.137 000023a4 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:06:39.144 000023a4 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:06:39.152 000023a4 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:06:39.160 000023a4 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:06:39.168 000023a4 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:06:39.196 000023a4 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:06:39.204 000023a4 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:06:39 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:06:39.440 00001ee8 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:06:41.831 00001ee8 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:06:41.844 00001ee8 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:06:41.848 00001ee8 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:06:41.851 00001ee8 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:06:41.854 00001ee8 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:06:41.858 00001ee8 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:06:41.861 00001ee8 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:06:41.870 00001ee8 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:06:41.879 00001ee8 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:06:41.911 00001ee8 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:06:41.914 00001ee8 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:06:41.923 00001ee8 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:06:41.927 00001ee8 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:06:41.930 00001ee8 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:06:41.934 00001ee8 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:06:41.937 00001ee8 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:06:41.940 00001ee8 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:06:41.943 00001ee8 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:06:41.947 00001ee8 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:06:41.950 00001ee8 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:06:41.954 00001ee8 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:06:41.957 00001ee8 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:06:41.967 00001ee8 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:06:41.970 00001ee8 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:06:41 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:06:52.173 00001cf0 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:06:55 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:07:13.196 00001cf0 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:07:13.201 00001cf0 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:07:13.204 00001cf0 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:07:13.208 00001cf0 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:07:13.211 00001cf0 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:07:13.215 00001cf0 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:07:13.224 00001cf0 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:07:13.233 00001cf0 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:07:13.265 00001cf0 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:07:13.269 00001cf0 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:07:13.278 00001cf0 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:07:13.281 00001cf0 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:07:13.285 00001cf0 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:07:13.289 00001cf0 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:07:13.295 00001cf0 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:07:13.303 00001cf0 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:07:13.308 00001cf0 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:07:13.314 00001cf0 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:07:13.318 00001cf0 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:07:13.324 00001cf0 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:07:13.329 00001cf0 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:07:13.339 00001cf0 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:07:13.344 00001cf0 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:07:13 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:07:13.543 000018b8 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:07:15.930 000018b8 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:07:15.943 000018b8 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:07:15.946 000018b8 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:07:15.949 000018b8 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:07:15.953 000018b8 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:07:15.956 000018b8 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:07:15.960 000018b8 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:07:15.969 000018b8 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:07:15.979 000018b8 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:07:16.014 000018b8 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:07:16.017 000018b8 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:07:16.027 000018b8 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:07:16.031 000018b8 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:07:16.035 000018b8 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:07:16.038 000018b8 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:07:16.041 000018b8 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:07:16.045 000018b8 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:07:16.048 000018b8 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:07:16.052 000018b8 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:07:16.055 000018b8 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:07:16.059 000018b8 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:07:16.062 000018b8 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:07:16.073 000018b8 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:07:16.077 000018b8 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:07:16 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:07:26.281 000008bc Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:07:32 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.1" 200 1012
+127.0.0.1 - - [21/Oct/2015:16:07:32 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 40208
+127.0.0.1 - - [21/Oct/2015:16:07:33 +0800] "CONNECT sp3.baidu.com:443 HTTP/1.1" 200 696
+127.0.0.1 - - [21/Oct/2015:16:07:33 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 721
+2015-10-21 16:07:34.168 0000179c Request: tj5.3lsoft.com/server_time
+2015-10-21 16:07:47.288 000008bc CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:07:47.293 000008bc CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:07:47.298 000008bc CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:07:47.301 000008bc CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:07:47.306 000008bc CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:07:47.310 000008bc CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:07:47.323 000008bc CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:07:47.335 000008bc CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:07:47.386 000008bc CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:07:47.389 000008bc CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:07:47.399 000008bc CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:07:47.403 000008bc CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:07:47.408 000008bc CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:07:47.411 000008bc CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:07:47.415 000008bc CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:07:47.419 000008bc CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:07:47.424 000008bc CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:07:47.427 000008bc CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:07:47.431 000008bc CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:07:47.436 000008bc CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:07:47.439 000008bc CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:07:47.449 000008bc CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:07:47.453 000008bc Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:07:47 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:07:48.236 0000219c Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:07:50.636 0000219c Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:07:50.649 0000219c CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:07:50.653 0000219c CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:07:50.657 0000219c CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:07:50.660 0000219c CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:07:50.664 0000219c CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:07:50.667 0000219c CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:07:50.676 0000219c CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:07:50.686 0000219c CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:07:50.719 0000219c CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:07:50.722 0000219c CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:07:50.731 0000219c CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:07:50.735 0000219c CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:07:50.739 0000219c CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:07:50.742 0000219c CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:07:50.747 0000219c CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:07:50.750 0000219c CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:07:50.754 0000219c CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:07:50.757 0000219c CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:07:50.761 0000219c CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:07:50.764 0000219c CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:07:50.768 0000219c CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:07:50.777 0000219c CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:07:50.781 0000219c Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:07:50 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+127.0.0.1 - - [21/Oct/2015:16:07:55 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:08:00.974 00002300 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:08:21.998 00002300 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:08:22.003 00002300 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:08:22.006 00002300 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:08:22.010 00002300 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:08:22.014 00002300 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:08:22.017 00002300 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:08:22.027 00002300 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:08:22.036 00002300 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:08:22.069 00002300 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:08:22.075 00002300 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:08:22.085 00002300 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:08:22.089 00002300 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:08:22.092 00002300 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:08:22.096 00002300 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:08:22.100 00002300 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:08:22.103 00002300 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:08:22.107 00002300 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:08:22.110 00002300 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:08:22.114 00002300 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:08:22.117 00002300 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:08:22.120 00002300 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:08:22.130 00002300 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:08:22.136 00002300 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:08:22 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:08:22.328 0000197c Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:08:24.718 0000197c Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:08:24.731 0000197c CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:08:24.735 0000197c CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:08:24.738 0000197c CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:08:24.741 0000197c CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:08:24.745 0000197c CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:08:24.749 0000197c CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:08:24.759 0000197c CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:08:24.768 0000197c CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:08:24.802 0000197c CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:08:24.805 0000197c CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:08:24.814 0000197c CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:08:24.819 0000197c CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:08:24.823 0000197c CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:08:24.826 0000197c CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:08:24.830 0000197c CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:08:24.833 0000197c CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:08:24.837 0000197c CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:08:24.840 0000197c CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:08:24.844 0000197c CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:08:24.847 0000197c CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:08:24.851 0000197c CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:08:24.860 0000197c CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:08:24.864 0000197c Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:08:24 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+127.0.0.1 - - [21/Oct/2015:16:08:32 +0800] "GET http://p5.yunpan.360.cn/ClientPush/poll?qid=25024944&devid=faf3c065e6e7592191411d8035ec9c91&ver=112474&rtick=91883749& HTTP/1.1" 200 34
+2015-10-21 16:08:32.968 00001f60 Request: p5.yunpan.360.cn/ClientPush/poll?qid=25024944&devid=faf3c065e6e7592191411d8035ec9c91&ver=112474&rtick=92153840&
+2015-10-21 16:08:34.195 000018ac Request: tj5.3lsoft.com/server_time
+2015-10-21 16:08:35.069 00001ca8 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:08:55 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:08:56.085 00001ca8 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:08:56.095 00001ca8 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:08:56.099 00001ca8 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:08:56.102 00001ca8 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:08:56.106 00001ca8 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:08:56.110 00001ca8 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:08:56.120 00001ca8 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:08:56.130 00001ca8 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:08:56.175 00001ca8 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:08:56.178 00001ca8 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:08:56.199 00001ca8 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:08:56.204 00001ca8 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:08:56.209 00001ca8 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:08:56.212 00001ca8 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:08:56.216 00001ca8 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:08:56.220 00001ca8 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:08:56.224 00001ca8 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:08:56.228 00001ca8 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:08:56.232 00001ca8 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:08:56.236 00001ca8 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:08:56.240 00001ca8 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:08:56.251 00001ca8 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:08:56.255 00001ca8 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:08:56 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:08:56.468 000012a4 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:08:58.790 000012a4 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:08:58.803 000012a4 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:08:58.818 000012a4 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:08:58.826 000012a4 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:08:58.830 000012a4 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:08:58.834 000012a4 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:08:58.837 000012a4 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:08:58.846 000012a4 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:08:58.865 000012a4 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:08:58.912 000012a4 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:08:58.916 000012a4 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:08:58.933 000012a4 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:08:58.949 000012a4 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:08:58.954 000012a4 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:08:58.958 000012a4 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:08:58.962 000012a4 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:08:58.965 000012a4 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:08:58.969 000012a4 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:08:58.973 000012a4 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:08:58.978 000012a4 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:08:58.983 000012a4 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:08:58.986 000012a4 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:08:58.996 000012a4 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:08:59.000 000012a4 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:08:59 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:09:00.336 00001f70 Request: www.baidu.com:443/
+2015-10-21 16:09:01.730 00001fd0 Request: sp0.baidu.com:443/
+2015-10-21 16:09:02.388 00002324 Request: sp3.baidu.com:443/
+2015-10-21 16:09:09.215 00001c34 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:09:30.226 00001c34 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:09:30.240 00001c34 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:09:30.253 00001c34 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:09:30.256 00001c34 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:09:30.260 00001c34 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:09:30.264 00001c34 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:09:30.275 00001c34 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:09:30.286 00001c34 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:09:30.328 00001c34 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:09:30.334 00001c34 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:09:30.350 00001c34 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:09:30.365 00001c34 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:09:30.374 00001c34 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:09:30.378 00001c34 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:09:30.382 00001c34 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:09:30.386 00001c34 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:09:30.390 00001c34 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:09:30.396 00001c34 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:09:30.404 00001c34 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:09:30.408 00001c34 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:09:30.412 00001c34 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:09:30.422 00001c34 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:09:30.441 00001c34 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:09:30 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:09:30.647 00001ea0 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:09:32 +0800] "CONNECT ss0.bdstatic.com:443 HTTP/1.1" 200 1115
+2015-10-21 16:09:33.048 00001ea0 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:09:33.062 00001ea0 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:09:33.066 00001ea0 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:09:33.071 00001ea0 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:09:33.074 00001ea0 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:09:33.078 00001ea0 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:09:33.084 00001ea0 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:09:33.094 00001ea0 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:09:33.104 00001ea0 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:09:33.140 00001ea0 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:09:33.143 00001ea0 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:09:33.153 00001ea0 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:09:33.157 00001ea0 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:09:33.160 00001ea0 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:09:33.165 00001ea0 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:09:33.169 00001ea0 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:09:33.172 00001ea0 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:09:33.176 00001ea0 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:09:33.180 00001ea0 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:09:33.184 00001ea0 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:09:33.187 00001ea0 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:09:33.191 00001ea0 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:09:33.201 00001ea0 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:09:33.207 00001ea0 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:09:33 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:09:34.234 00001920 Request: tj5.3lsoft.com/server_time
+127.0.0.1 - - [21/Oct/2015:16:09:36 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.1" 200 1320
+127.0.0.1 - - [21/Oct/2015:16:09:36 +0800] "CONNECT sp3.baidu.com:443 HTTP/1.1" 200 665
+2015-10-21 16:09:43.414 0000214c Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:09:55 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 397
+2015-10-21 16:10:04.430 0000214c CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:10:04.434 0000214c CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:10:04.438 0000214c CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:10:04.442 0000214c CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:10:04.445 0000214c CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:10:04.449 0000214c CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:10:04.458 0000214c CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:10:04.467 0000214c CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:10:04.501 0000214c CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:10:04.505 0000214c CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:10:04.514 0000214c CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:10:04.517 0000214c CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:10:04.521 0000214c CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:10:04.527 0000214c CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:10:04.534 0000214c CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:10:04.538 0000214c CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:10:04.541 0000214c CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:10:04.545 0000214c CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:10:04.548 0000214c CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:10:04.552 0000214c CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:10:04.555 0000214c CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:10:04.564 0000214c CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:10:04.568 0000214c Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:10:04 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:10:04.761 00000fc4 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:10:07.259 00000fc4 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:10:07.273 00000fc4 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:10:07.277 00000fc4 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:10:07.282 00000fc4 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:10:07.286 00000fc4 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:10:07.290 00000fc4 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:10:07.293 00000fc4 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:10:07.303 00000fc4 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:10:07.312 00000fc4 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:10:07.349 00000fc4 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:10:07.352 00000fc4 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:10:07.361 00000fc4 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:10:07.364 00000fc4 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:10:07.369 00000fc4 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:10:07.373 00000fc4 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:10:07.377 00000fc4 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:10:07.381 00000fc4 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:10:07.384 00000fc4 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:10:07.387 00000fc4 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:10:07.391 00000fc4 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:10:07.395 00000fc4 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:10:07.399 00000fc4 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:10:07.411 00000fc4 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:10:07.414 00000fc4 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:10:07 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:10:15.312 00001d48 Request: sp0.baidu.com:443/
+2015-10-21 16:10:16.071 00001eac Request: sp3.baidu.com:443/
+2015-10-21 16:10:16.159 00000dec Request: www.baidu.com:443/
+2015-10-21 16:10:17.618 00001e74 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:10:34.239 000022f0 Request: tj5.3lsoft.com/server_time
+2015-10-21 16:10:38.633 00001e74 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:10:38.637 00001e74 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:10:38.641 00001e74 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:10:38.644 00001e74 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:10:38.647 00001e74 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:10:38.651 00001e74 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:10:38.659 00001e74 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:10:38.668 00001e74 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:10:38.702 00001e74 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:10:38.705 00001e74 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:10:38.716 00001e74 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:10:38.719 00001e74 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:10:38.722 00001e74 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:10:38.726 00001e74 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:10:38.730 00001e74 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:10:38.733 00001e74 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:10:38.737 00001e74 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:10:38.740 00001e74 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:10:38.743 00001e74 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:10:38.746 00001e74 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:10:38.750 00001e74 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:10:38.759 00001e74 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:10:38.763 00001e74 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:10:38 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:10:38.955 00001fc8 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:10:42.352 00001fc8 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:10:42.371 00001fc8 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:10:42.374 00001fc8 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:10:42.378 00001fc8 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:10:42.381 00001fc8 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:10:42.385 00001fc8 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:10:42.388 00001fc8 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:10:42.399 00001fc8 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:10:42.407 00001fc8 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:10:42.440 00001fc8 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:10:42.443 00001fc8 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:10:42.452 00001fc8 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:10:42.455 00001fc8 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:10:42.459 00001fc8 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:10:42.462 00001fc8 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:10:42.466 00001fc8 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:10:42.469 00001fc8 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:10:42.473 00001fc8 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:10:42.476 00001fc8 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:10:42.479 00001fc8 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:10:42.482 00001fc8 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:10:42.487 00001fc8 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:10:42.496 00001fc8 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:10:42.499 00001fc8 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:10:42 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:10:52.685 000011b4 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:11:13.692 000011b4 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:11:13.696 000011b4 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:11:13.700 000011b4 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:11:13.703 000011b4 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:11:13.707 000011b4 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:11:13.710 000011b4 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:11:13.719 000011b4 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:11:13.728 000011b4 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:11:13.764 000011b4 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:11:13.773 000011b4 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:11:13.782 000011b4 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:11:13.793 000011b4 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:11:13.798 000011b4 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:11:13.802 000011b4 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:11:13.805 000011b4 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:11:13.809 000011b4 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:11:13.812 000011b4 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:11:13.816 000011b4 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:11:13.820 000011b4 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:11:13.823 000011b4 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:11:13.826 000011b4 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:11:13.835 000011b4 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:11:13.839 000011b4 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:11:13 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:11:14.045 00002144 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:11:16 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 117712
+127.0.0.1 - - [21/Oct/2015:16:11:16 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.1" 200 1012
+127.0.0.1 - - [21/Oct/2015:16:11:16 +0800] "CONNECT sp3.baidu.com:443 HTTP/1.1" 200 655
+127.0.0.1 - - [21/Oct/2015:16:11:16 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 749
+2015-10-21 16:11:16.367 00002144 Info: Can not resolve p.ey-fun: No such host is known. 
+2015-10-21 16:11:16.384 00002144 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:11:16.393 00002144 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:11:16.404 00002144 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:11:16.410 00002144 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:11:16.418 00002144 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:11:16.422 00002144 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:11:16.431 00002144 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:11:16.447 00002144 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:11:16.491 00002144 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:11:16.496 00002144 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:11:16.506 00002144 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:11:16.510 00002144 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:11:16.514 00002144 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:11:16.522 00002144 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:11:16.532 00002144 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:11:16.536 00002144 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:11:16.539 00002144 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:11:16.546 00002144 CGI: Substituting: s/@host@/p.ey-fun/sigTU
+2015-10-21 16:11:16.549 00002144 CGI: Substituting: s/@hostport@/p.ey-fun/sigTU
+2015-10-21 16:11:16.554 00002144 CGI: Substituting: s/@path@//eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:11:16.558 00002144 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:11:16.580 00002144 CGI: Substituting: s/@host-ip@/unknown/sigTU
+2015-10-21 16:11:16.584 00002144 Crunch: DNS failure: http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:11:16 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 404 8661
+2015-10-21 16:11:26.796 00001e50 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:11:29.994 000021fc Request: client.show.qq.com/cgi-bin/qqshow_user_props_info
+127.0.0.1 - - [21/Oct/2015:16:11:30 +0800] "POST http://client.show.qq.com/cgi-bin/qqshow_user_props_info HTTP/1.1" 200 78
+2015-10-21 16:11:34.264 00002120 Request: tj5.3lsoft.com/server_time
+127.0.0.1 - - [21/Oct/2015:16:11:39 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 0
+2015-10-21 16:11:47.826 00001e50 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:11:47.830 00001e50 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:11:47.834 00001e50 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:11:47.837 00001e50 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:11:47.841 00001e50 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:11:47.844 00001e50 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:11:47.853 00001e50 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:11:47.861 00001e50 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:11:47.894 00001e50 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:11:47.899 00001e50 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:11:47.907 00001e50 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:11:47.911 00001e50 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:11:47.916 00001e50 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:11:47.920 00001e50 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:11:47.923 00001e50 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:11:47.926 00001e50 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:11:47.930 00001e50 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:11:47.934 00001e50 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:11:47.938 00001e50 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:11:47.941 00001e50 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:11:47.944 00001e50 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:11:47.953 00001e50 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:11:47.957 00001e50 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:11:47 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:11:48.245 00001ca0 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:11:48 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:11:58.662 00002260 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:12:02 +0800] "CONNECT ss1.bdstatic.com:443 HTTP/1.1" 200 15446
+2015-10-21 16:12:07.748 00001e9c Request: client.show.qq.com/cgi-bin/qqshow_user_props_info
+127.0.0.1 - - [21/Oct/2015:16:12:07 +0800] "POST http://client.show.qq.com/cgi-bin/qqshow_user_props_info HTTP/1.1" 200 78
+2015-10-21 16:12:19.676 00002260 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:12:19.687 00002260 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:12:19.691 00002260 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:12:19.699 00002260 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:12:19.703 00002260 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:12:19.707 00002260 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:12:19.726 00002260 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:12:19.736 00002260 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:12:19.773 00002260 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:12:19.776 00002260 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:12:19.786 00002260 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:12:19.790 00002260 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:12:19.793 00002260 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:12:19.797 00002260 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:12:19.800 00002260 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:12:19.805 00002260 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:12:19.808 00002260 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:12:19.812 00002260 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:12:19.817 00002260 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:12:19.822 00002260 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:12:19.825 00002260 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:12:19.835 00002260 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:12:19.838 00002260 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:12:19 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:12:20.229 000020d4 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:12:20 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:12:24.490 00000e2c Request: www.baidu.com:443/
+2015-10-21 16:12:25.059 000020bc Request: www.baidu.com:443/
+2015-10-21 16:12:25.788 00001dc0 Request: sp0.baidu.com:443/
+2015-10-21 16:12:26.003 00000f7c Request: ss1.bdstatic.com:443/
+2015-10-21 16:12:27.883 00001b54 Request: token.services.mozilla.com:443/
+2015-10-21 16:12:28.457 00002330 Request: sync-246-us-west-2.sync.services.mozilla.com:443/
+2015-10-21 16:12:30.455 000020a0 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:12:34.316 00001bc8 Request: tj5.3lsoft.com/server_time
+127.0.0.1 - - [21/Oct/2015:16:12:38 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 0
+127.0.0.1 - - [21/Oct/2015:16:12:38 +0800] "CONNECT token.services.mozilla.com:443 HTTP/1.1" 200 4138
+2015-10-21 16:12:40.168 00001d54 Request: www.baidu.com:443/
+2015-10-21 16:12:41.160 00002310 Request: sp0.baidu.com:443/
+2015-10-21 16:12:42.113 00002324 Request: sp3.baidu.com:443/
+2015-10-21 16:12:42.200 00001dd8 Request: www.baidu.com:443/
+2015-10-21 16:12:51.463 000020a0 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:12:51.469 000020a0 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:12:51.473 000020a0 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:12:51.476 000020a0 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:12:51.479 000020a0 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:12:51.483 000020a0 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:12:51.491 000020a0 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:12:51.500 000020a0 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:12:51.536 000020a0 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:12:51.539 000020a0 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:12:51.548 000020a0 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:12:51.552 000020a0 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:12:51.555 000020a0 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:12:51.558 000020a0 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:12:51.563 000020a0 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:12:51.567 000020a0 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:12:51.570 000020a0 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:12:51.573 000020a0 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:12:51.577 000020a0 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:12:51.581 000020a0 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:12:51.584 000020a0 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:12:51.594 000020a0 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:12:51.598 000020a0 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:12:51 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:12:52.241 00001c88 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:12:52 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:12:55.158 000022f0 Request: crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl
+127.0.0.1 - - [21/Oct/2015:16:12:55 +0800] "GET http://crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl HTTP/1.1" 200 0
+2015-10-21 16:12:55.744 000022f0 Request: crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl
+127.0.0.1 - - [21/Oct/2015:16:12:56 +0800] "GET http://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl HTTP/1.1" 200 0
+2015-10-21 16:12:56.314 000022f0 Request: crl.microsoft.com/pki/crl/products/microsoftrootcert.crl
+127.0.0.1 - - [21/Oct/2015:16:12:56 +0800] "GET http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl HTTP/1.1" 200 0
+2015-10-21 16:12:56.849 000022f0 Request: crl.microsoft.com/pki/crl/products/MicCodSigPCA_08-31-2010.crl
+127.0.0.1 - - [21/Oct/2015:16:12:57 +0800] "GET http://crl.microsoft.com/pki/crl/products/MicCodSigPCA_08-31-2010.crl HTTP/1.1" 200 0
+2015-10-21 16:12:57.372 000022f0 Request: crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl
+2015-10-21 16:12:57.578 00002240 Request: client.show.qq.com/cgi-bin/qqshow_user_props_info
+127.0.0.1 - - [21/Oct/2015:16:12:57 +0800] "POST http://client.show.qq.com/cgi-bin/qqshow_user_props_info HTTP/1.1" 200 78
+127.0.0.1 - - [21/Oct/2015:16:12:57 +0800] "GET http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl HTTP/1.1" 200 0
+2015-10-21 16:12:57.889 000022f0 Request: crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl
+127.0.0.1 - - [21/Oct/2015:16:12:58 +0800] "GET http://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl HTTP/1.1" 200 0
+2015-10-21 16:12:58.408 000022f0 Request: crl.microsoft.com/pki/crl/products/CodeSignPCA.crl
+127.0.0.1 - - [21/Oct/2015:16:12:58 +0800] "GET http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl HTTP/1.1" 200 0
+2015-10-21 16:13:02.436 00001dcc Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:13:05 +0800] "CONNECT www.baidu.com:443 HTTP/1.0" 200 113092
+127.0.0.1 - - [21/Oct/2015:16:13:05 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.0" 200 7194
+127.0.0.1 - - [21/Oct/2015:16:13:05 +0800] "CONNECT ss1.bdstatic.com:443 HTTP/1.0" 200 8702
+127.0.0.1 - - [21/Oct/2015:16:13:05 +0800] "CONNECT www.baidu.com:443 HTTP/1.0" 200 35259
+2015-10-21 16:13:23.449 00001dcc CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:13:23.454 00001dcc CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:13:23.457 00001dcc CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:13:23.461 00001dcc CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:13:23.468 00001dcc CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:13:23.471 00001dcc CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:13:23.481 00001dcc CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:13:23.490 00001dcc CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:13:23.531 00001dcc CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:13:23.534 00001dcc CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:13:23.545 00001dcc CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:13:23.549 00001dcc CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:13:23.553 00001dcc CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:13:23.556 00001dcc CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:13:23.561 00001dcc CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:13:23.566 00001dcc CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:13:23.570 00001dcc CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:13:23.574 00001dcc CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:13:23.581 00001dcc CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:13:23.588 00001dcc CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:13:23.592 00001dcc CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:13:23.601 00001dcc CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:13:23.605 00001dcc Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:13:23 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:13:24.236 000020a8 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:13:24 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+127.0.0.1 - - [21/Oct/2015:16:13:28 +0800] "GET http://p5.yunpan.360.cn/ClientPush/poll?qid=25024944&devid=faf3c065e6e7592191411d8035ec9c91&ver=112474&rtick=92153840& HTTP/1.1" 200 34
+2015-10-21 16:13:28.685 00001f60 Request: p5.yunpan.360.cn/ClientPush/poll?qid=25024944&devid=faf3c065e6e7592191411d8035ec9c91&ver=112474&rtick=92464871&
+2015-10-21 16:13:34.321 0000218c Request: tj5.3lsoft.com/server_time
+2015-10-21 16:13:34.430 00002058 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:13:35 +0800] "CONNECT sync-246-us-west-2.sync.services.mozilla.com:443 HTTP/1.1" 200 5455
+127.0.0.1 - - [21/Oct/2015:16:13:42 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.1" 200 1012
+127.0.0.1 - - [21/Oct/2015:16:13:42 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 39261
+127.0.0.1 - - [21/Oct/2015:16:13:42 +0800] "CONNECT sp3.baidu.com:443 HTTP/1.1" 200 655
+127.0.0.1 - - [21/Oct/2015:16:13:42 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 720
+2015-10-21 16:13:55.442 00002058 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:13:55.447 00002058 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:13:55.450 00002058 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:13:55.453 00002058 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:13:55.457 00002058 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:13:55.461 00002058 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:13:55.470 00002058 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:13:55.478 00002058 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:13:55.511 00002058 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:13:55.514 00002058 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:13:55.523 00002058 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:13:55.527 00002058 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:13:55.530 00002058 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:13:55.534 00002058 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:13:55.537 00002058 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:13:55.543 00002058 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:13:55.546 00002058 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:13:55.550 00002058 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:13:55.553 00002058 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:13:55.556 00002058 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:13:55.560 00002058 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:13:55.572 00002058 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:13:55.576 00002058 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:13:55 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:13:56.234 000019d0 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:13:56 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+127.0.0.1 - - [21/Oct/2015:16:13:59 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 0
+2015-10-21 16:14:05.667 00001c24 Request: client.show.qq.com/cgi-bin/qqshow_user_props_info
+127.0.0.1 - - [21/Oct/2015:16:14:05 +0800] "POST http://client.show.qq.com/cgi-bin/qqshow_user_props_info HTTP/1.1" 200 78
+2015-10-21 16:14:06.463 0000180c Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:14:27.478 0000180c CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:14:27.482 0000180c CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:14:27.486 0000180c CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:14:27.489 0000180c CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:14:27.493 0000180c CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:14:27.496 0000180c CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:14:27.505 0000180c CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:14:27.513 0000180c CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:14:27.546 0000180c CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:14:27.549 0000180c CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:14:27.558 0000180c CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:14:27.562 0000180c CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:14:27.565 0000180c CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:14:27.570 0000180c CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:14:27.573 0000180c CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:14:27.576 0000180c CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:14:27.579 0000180c CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:14:27.583 0000180c CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:14:27.586 0000180c CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:14:27.589 0000180c CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:14:27.592 0000180c CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:14:27.601 0000180c CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:14:27.605 0000180c Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:14:27 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:14:28.229 0000230c Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:14:28 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:14:34.347 00001e90 Request: tj5.3lsoft.com/server_time
+2015-10-21 16:14:38.439 00001570 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:14:44.431 00001900 Request: www.baidu.com:443/
+2015-10-21 16:14:45.756 000017b0 Request: sp0.baidu.com:443/
+2015-10-21 16:14:46.521 00002128 Request: sp3.baidu.com:443/
+2015-10-21 16:14:46.619 0000135c Request: www.baidu.com:443/
+127.0.0.1 - - [21/Oct/2015:16:14:59 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 0
+2015-10-21 16:14:59.448 00001570 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:14:59.451 00001570 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:14:59.455 00001570 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:14:59.459 00001570 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:14:59.462 00001570 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:14:59.465 00001570 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:14:59.474 00001570 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:14:59.483 00001570 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:14:59.515 00001570 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:14:59.518 00001570 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:14:59.527 00001570 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:14:59.531 00001570 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:14:59.534 00001570 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:14:59.538 00001570 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:14:59.541 00001570 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:14:59.545 00001570 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:14:59.549 00001570 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:14:59.553 00001570 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:14:59.556 00001570 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:14:59.559 00001570 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:14:59.564 00001570 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:14:59.577 00001570 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:14:59.582 00001570 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:14:59 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:15:00.239 000017dc Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:15:00 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:15:07.697 00001e24 Error: Didn't receive data in time: push.services.mozilla.com:443
+2015-10-21 16:15:07.947 00000c6c Request: push.services.mozilla.com:443/
+2015-10-21 16:15:10.462 00002174 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:15:31.477 00002174 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:15:31.481 00002174 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:15:31.484 00002174 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:15:31.488 00002174 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:15:31.491 00002174 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:15:31.494 00002174 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:15:31.503 00002174 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:15:31.513 00002174 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:15:31.544 00002174 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:15:31.548 00002174 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:15:31.557 00002174 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:15:31.560 00002174 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:15:31.564 00002174 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:15:31.567 00002174 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:15:31.570 00002174 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:15:31.574 00002174 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:15:31.577 00002174 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:15:31.581 00002174 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:15:31.584 00002174 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:15:31.587 00002174 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:15:31.590 00002174 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:15:31.600 00002174 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:15:31.604 00002174 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:15:31 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:15:32.233 000022b8 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:15:32 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:15:34.385 00000848 Request: tj5.3lsoft.com/server_time
+2015-10-21 16:15:42.461 00001f8c Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:15:46 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.1" 200 1041
+127.0.0.1 - - [21/Oct/2015:16:15:46 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 39319
+127.0.0.1 - - [21/Oct/2015:16:15:46 +0800] "CONNECT sp3.baidu.com:443 HTTP/1.1" 200 696
+127.0.0.1 - - [21/Oct/2015:16:15:46 +0800] "CONNECT www.baidu.com:443 HTTP/1.1" 200 720
+2015-10-21 16:15:59.638 00002108 Request: www.baidu.com:443/
+2015-10-21 16:16:00.573 00001d7c Request: sp0.baidu.com:443/
+2015-10-21 16:16:00.760 00001da0 Request: ss1.bdstatic.com:443/
+127.0.0.1 - - [21/Oct/2015:16:16:02 +0800] "GET http://tj5.3lsoft.com/server_time HTTP/1.1" 200 0
+2015-10-21 16:16:03.481 00001f8c CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:16:03.486 00001f8c CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:16:03.489 00001f8c CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:16:03.492 00001f8c CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:16:03.496 00001f8c CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:16:03.499 00001f8c CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:16:03.508 00001f8c CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:16:03.516 00001f8c CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:16:03.547 00001f8c CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:16:03.551 00001f8c CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:16:03.560 00001f8c CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:16:03.564 00001f8c CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:16:03.567 00001f8c CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:16:03.571 00001f8c CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:16:03.574 00001f8c CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:16:03.578 00001f8c CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:16:03.581 00001f8c CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:16:03.584 00001f8c CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:16:03.588 00001f8c CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:16:03.591 00001f8c CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:16:03.594 00001f8c CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:16:03.604 00001f8c CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:16:03.607 00001f8c Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:16:03 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:16:04.227 0000222c Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:16:04 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+2015-10-21 16:16:14.489 00001e28 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+2015-10-21 16:16:15.255 000012f4 Request: www.baidu.com:443/
+2015-10-21 16:16:16.695 00001588 Request: sp0.baidu.com:443/
+2015-10-21 16:16:17.426 00001ae4 Request: sp3.baidu.com:443/
+2015-10-21 16:16:17.533 00001578 Request: www.baidu.com:443/
+2015-10-21 16:16:34.433 00002234 Request: tj5.3lsoft.com/server_time
+2015-10-21 16:16:35.536 00001e28 CGI: Substituting: s/@version@/3.0.23/sigTU
+2015-10-21 16:16:35.541 00001e28 CGI: Substituting: s/@time@//sigTU
+2015-10-21 16:16:35.544 00001e28 CGI: Substituting: s/@my-ip-address@/127.0.0.1/sigTU
+2015-10-21 16:16:35.547 00001e28 CGI: Substituting: s/@my-port@/8118/sigTU
+2015-10-21 16:16:35.551 00001e28 CGI: Substituting: s/@my-hostname@/rainsoft-PC/sigTU
+2015-10-21 16:16:35.555 00001e28 CGI: Substituting: s/@homepage@/http://www.privoxy.org//sigTU
+2015-10-21 16:16:35.565 00001e28 CGI: Substituting: s/@default-cgi@/http://config.privoxy.org//sigTU
+2015-10-21 16:16:35.575 00001e28 CGI: Substituting: s/@menu@/<li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/show-status">View &amp; change the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li>/sigTU
+2015-10-21 16:16:35.608 00001e28 CGI: Substituting: s/@code-status@/stable/sigTU
+2015-10-21 16:16:35.611 00001e28 CGI: Substituting: s/@user-manual@/http://config.privoxy.org/user-manual//sigTU
+2015-10-21 16:16:35.620 00001e28 CGI: Substituting: s/@actions-help-prefix@/actions-file.html#/sigTU
+2015-10-21 16:16:35.623 00001e28 CGI: Substituting: s/@else-not-enabled-display@.*@endif-enabled-display@//sigTU
+2015-10-21 16:16:35.628 00001e28 CGI: Substituting: s/@if-enabled-display-then@//sigTU
+2015-10-21 16:16:35.631 00001e28 CGI: Substituting: s/@if-unstable-start.*if-unstable-end@//sigTU
+2015-10-21 16:16:35.634 00001e28 CGI: Substituting: s/@if-have-adminaddr-info-start.*if-have-adminaddr-info-end@//sigTU
+2015-10-21 16:16:35.638 00001e28 CGI: Substituting: s/@if-have-proxy-info-start.*if-have-proxy-info-end@//sigTU
+2015-10-21 16:16:35.641 00001e28 CGI: Substituting: s/@if-have-help-info-start.*if-have-help-info-end@//sigTU
+2015-10-21 16:16:35.645 00001e28 CGI: Substituting: s/@host@/192.168.30.111/sigTU
+2015-10-21 16:16:35.648 00001e28 CGI: Substituting: s/@hostport@/192.168.30.111/sigTU
+2015-10-21 16:16:35.651 00001e28 CGI: Substituting: s/@path@//eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D/sigTU
+2015-10-21 16:16:35.663 00001e28 CGI: Substituting: s/@protocol@/http:///sigTU
+2015-10-21 16:16:35.676 00001e28 CGI: Substituting: s/@host-ip@/192.168.30.111/sigTU
+2015-10-21 16:16:35.686 00001e28 Crunch: Connection failure: http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:16:35 +0800] "GET http://192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 503 8465
+2015-10-21 16:16:36.240 000022c4 Request: p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D
+127.0.0.1 - - [21/Oct/2015:16:16:36 +0800] "GET http://p.ey-fun/eyportal/internetBar/getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D HTTP/1.1" 200 976
+127.0.0.1 - - [21/Oct/2015:16:16:39 +0800] "CONNECT www.baidu.com:443 HTTP/1.0" 200 35174
+127.0.0.1 - - [21/Oct/2015:16:16:39 +0800] "CONNECT sp0.baidu.com:443 HTTP/1.0" 200 6768
+127.0.0.1 - - [21/Oct/2015:16:16:39 +0800] "CONNECT ss1.bdstatic.com:443 HTTP/1.0" 200 6905
+2015-10-21 16:16:46.441 00001a48 Request: 192.168.30.111/eyportal/load/download!getFile.do?param=uH0hVHBG9bn6vQw12UwLMyBsmT0ueHe9gdhX6AInlgjXlwJGN4ovmVDJ%2FbwGUHv6E1QjYzWfYUY%3D

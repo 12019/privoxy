@@ -1,0 +1,4 @@
+        <h1>
+         这是 <a href="@homepage@">Privoxy</a> @version@ 版本, 地址 @my-hostname@ (@my-ip-address@), 端口 @my-port@<!-- @if-can-toggle-start -->,
+          @if-enabled-display-then@enabled@else-not-enabled-display@disabled@endif-enabled-display@<!-- if-can-toggle-end@ -->
+        </h1>

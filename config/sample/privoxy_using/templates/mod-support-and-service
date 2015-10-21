@@ -1,0 +1,42 @@
+##############################################################################
+#
+# File        :  $Source: /cvsroot/ijbswa/current/templates/mod-support-and-service,v $
+#
+# Purpose     :  Template that is included from most of Privoxy's CGI pages
+#                to show the user how to get help or report problems.
+#
+#
+# Copyright   :  Written by and Copyright (C) 2002-2009 members of
+#                the Privoxy team. http://www.privoxy.org/
+#
+#                This template is free software; you can redistribute it
+#                and/or modify it under the terms of the GNU General
+#                Public License as published by the Free Software
+#                Foundation; either version 2 of the License, or (at
+#                your option) any later version.
+#
+##############################################################################
+       <h2>支持和服务:</h2>
+        <p>
+          Privoxy 团队值您的反馈意见. 为您提供最佳的支持，我们要求您:
+        </p>
+        <ul>
+          <li>
+如果你需要可以利用<a href="http://sourceforge.net/tracker/?group_id=11118&amp;atid=211118">支持跟踪程序</a>帮助。
+          </li>
+          <li>
+通过 <a href="http://sourceforge.net/tracker/?group_id=11118&amp;atid=460288">Actionsfile</a> 提交广告和配置相关的反馈跟踪操作文件的问题。
+          </li>
+          <li>
+只有通过 <a href="http://sourceforge.net/tracker/?group_id=11118&amp;atid=111118">Bug 跟踪系统的</a> 提交 bug。请确保该 bug 尚未提交。
+          </li>
+          <li>
+只有通过该功能提交 <a href="http://sourceforge.net/tracker/?atid=361118&amp;group_id=11118&amp;func=browse">请求跟踪器</a>。
+          </li>
+          <li>
+读取<a title="Contacting the developers, Bug Reporting and Feature Requests" href="@user-manual@contact.html">用户手册中的说明操作</a>，以确保您的请求包含所有我们需要的信息。
+          </li>
+        </ul>
+        <p>
+如果你想要支持Privoxy团队,请看FAQ,以学习如何<a href="http://www.privoxy.org/faq/general.html#PARTICIPATE">参与</a>或<a href="http://www.privoxy.org/faq/general.html#DONATE">捐赠</a>
+        </p>

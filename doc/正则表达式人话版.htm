@@ -1,0 +1,195 @@
+<table>
+<tr>
+<td width=1%></td>
+<td width=98%>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+　　正则，正，啥意思，至今没搞清，还有歪则、反则、副则不成？正确？那不废话吗！<br>
+<br>
+　　通配符都知道，很简单，?代表任意一个字符，*代表任意多个字符，所以a??d、a*d都可以代表abcd。但是通配符不够细，如果只要字母abcd不要数字a12d就区分不开，也不能限制到底几个字符，更不能排除哪个字符，这就用到正则了。<br>
+<br>
+　　简单的例子，每个文件里都有“广告”俩字，要删掉很容易，随便找个批量替换软件就能完成。但第1个文件里的是“广告1”，第2个是“广告2”，第3个是“广告3”……第9个是“广告9”怎么办？用正则就很方便，数字在正则中用<font color="red">\d</font>表示，所以只需要写成“<font color="red">广告\d</font>”，正则就会把“广告1”、“广告2”、“广告3”……“广告9”全部挑出来删掉。为什么只能处理9个，多了怎么办，看完就知道了。<br>
+<br>
+　　复杂点的文本编辑器几乎都有正则，我用的是Akelpad和TextForever，Akelpad处理单文件很好用，有插件、脚本，推荐汉化新世纪CNNNC的汉化版。注意看版本历史：4.8.5时模式为非贪婪且不可更改；4.8.6起除<font color="red">.*</font>外均为默认贪婪且占有优先，即不会回溯；4.8.9则和普通正则一样是默认贪婪，需要占有优先时要用<font color="red">+</font>号。TextForever用来批处理，但中文必须是ANSI编码，UTF-8格式的处理后会乱码，其自带转换功能不行。转码可以用批量文本编码转换器V1.1（中文免费）、Replace&nbsp;Pioneer（英文收费）。<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<font color="red">.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任意一个字符。就是什么字符都可以，且只有一个。两个字符就写<font color="red">..</font>，三个字符就写<font color="red">...</font>，和通配符的?挺像。这里有个细节要注意：<font color="red">.</font>是否包括换行符。有三种情况：不包括（原教旨，它应该说：除换行符外的任一字符）、可选、必包括（Akelpad），三种软件都见过，使用前请先摇一摇。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;延伸阅读：每行行尾的那个“回车换行”，其实也是字符，虽然看着没有。文本在电脑看来其实是一整串字符，遇到回车换行符时就另起一行显示给我们看。回车换行是两个动作，先回到行首，再另起一行，没错吧？但是有人说了，这不废话吗，只回车不换行逮着一行使劲写？只换行不回车写到纸外头去？有一个就够了！于是Win老老实实的“回车换行”<font color="red">\r\n</font>，Unix用一个“换行”<font color="red">\n</font>，Mac用一个“回车”<font color="red">\r</font>。结果更费事，Windows记事本打开某些txt，换行的地方是黑方块，就是遇到了Unix或Mac系统生成的文件。真想把这仨货捏一块啊！（据说新版苹果系统也是\n了，嗯，据说）<br>
+<br>
+<font color="red">|</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;或。<font color="red">1|2</font>，1或2；<font color="red">1|2|3</font>，1或2或3，就这么简单。比如我要找兄弟俩，丁一、丁二，就这么写：<font color="red">丁一|丁二</font>，另一种写法：<font color="red">丁(一|二)</font>。“<font color="red">丁一|二</font>”会找到啥呢？<br>
+<br>
+<font color="red">[]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;括号里的任一字符都可以。<font color="red">[123]</font>与<font color="red">1|2|3</font>效果一样。注意两点：<font color="red">.</font>在里面就是本意“点”，不需要转义写成<font color="red">\.</font>；<font color="red">[]</font>里的字符不讲究顺序，<font color="red">[123]</font>、<font color="red">[213]</font>、<font color="red">[231]</font>没有区别，你就这么理解：打散了的单个字符。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不要和后面的<font color="red">()</font>混淆，<font color="red">[]</font>只找一个字符，如果要用<font color="red">[123]</font>找123，需要写成<font color="red">[123][123][123]</font>，而且它也会找到213、321……<br>
+<br>
+<font color="red">[^]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;括号里的任一字符都不要。<font color="red">[^123]</font>意思就是：不是1不是2也不是3的任一字符。<br>
+<br>
+<font color="red">[-]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;连续字符。<font color="red">[a-z]</font>、<font color="red">[A-Z]</font>、<font color="red">[0-9]</font>，和在<font color="red">[]</font>里写26个字母或10个数字一样。写全就这样<font color="red">[a-zA-Z0-9]</font>，也可以截取一部分如<font color="red">[b-z]</font>。那如果我写<font color="red">[a-Z]</font>、<font color="red">[10-19]</font>岂不省事还能算数？试试呗^_^<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">[\u4e00-\u9fa5]</font>，一个汉字。它的原理是什么，纯简还简繁，请善用搜索。好吧，我承认我不记得了。<br>
+<br>
+<font color="red">[^-]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;和<font color="red">[^]</font>相似用法，如<font color="red">[^a-z]</font>。<br>
+<br>
+<font color="red">\d</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个数字。等价于<font color="red">[0-9]</font>。<br>
+<font color="red">\s</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个空白字符，包括空格、制表符、换页符等等。等价于<font color="red">[&nbsp;\f\n\r\t\v]</font>。<br>
+<font color="red">\w</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个字母、数字或下划线。等价于<font color="red">[A-Za-z0-9_]</font>。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d、s、w就是数字、空白、字符的英文单词首字母嘛，好记。有了小写，大写也不能闲着，小写是“是”，大写就是“非”好了。<br>
+<br>
+<font color="red">\D</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个非数字。等价于<font color="red">[^0-9]</font>。<br>
+<font color="red">\S</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个非空白字符。等价于<font color="red">[^&nbsp;\f\n\r\t\v]</font>。<br>
+<font color="red">\W</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个非单词字符。等价于<font color="red">[^A-Za-z0-9_]</font>。<br>
+<br>
+<font color="red">\f</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个换页符。等价于<font color="red">\x0c</font>和<font color="red">\cL</font>。<br>
+<font color="red">\r</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个回车符。等价于<font color="red">\x0d</font>和<font color="red">\cM</font>。<br>
+<font color="red">\n</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个换行符。等价于<font color="red">\x0a</font>和<font color="red">\cJ</font>。<br>
+<font color="red">\t</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个制表符。等价于<font color="red">\x09</font>和<font color="red">\cI</font>。<br>
+<font color="red">\v</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个垂直制表符。等价于<font color="red">\x0b</font>和<font color="red">\cK</font>。<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<font color="red">^</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;行首。<font color="red">^1</font>，这个1必须是行首那个。213中的1就不合要求。<br>
+<font color="red">$</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;行尾。<font color="red">1$</font>，自然是行尾那个了。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那么猜猜反着写会怎样？<font color="red">1^</font>和<font color="red">$1</font>会找到什么？<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+　　下面这几个是“前面字符或表达式重复多少次”的意思，单拎出来不能用。<br>
+<br>
+　　这叫数词或数量词，也不知道谁翻译成量词，个、件、头、口、斗……才是量词。<br>
+<br>
+<font color="red">*</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">*</font>前面的字符重复任意次，可以没有，可以无限，0～∞。如<font color="red">123*</font>就是12、123、123、123333……都行。那位说了，<font color="red">*</font>只重复紧贴着它的那一个，我要找123123123咋办？好办，括起来，<font color="red">(123)*</font>，用括号括起来的算“一个”，神圣不可分割。<br>
+<br>
+<font color="red">+</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1～∞，也就是最少一个，上不封顶。刚才的<font color="red">(123)*</font>是不是有时候什么也没找着但也不报错啊？因为<font color="red">*</font>可以是“没有”，所以<font color="red">(123)*</font>有时候找到的是“位置”，这个以后再说。而<font color="red">(123)+</font>就没有这个问题，因为最少得有一个。<br>
+<br>
+<font color="red">?</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0～1，可1可无，但不能一堆。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">?</font>若跟在<font color="red">*</font>、<font color="red">+</font>后面，则是另一种含义：非贪婪。正则默认为贪婪，贪婪就是只要符合就逮进来。12121212，用<font color="red">1.*2</font>找到的是整个12121212，因为每个字符都符合<font color="red">.</font>的要求嘛。这时候就得用非贪婪模式了，<font color="red">1.*?2</font>就只能找到12、12、12、12。看效果，贪婪是找到第一个1，找到最后一个2，之间的全扒拉进来；非贪婪则是找到第一个1，找到最近的一个2。当然这只是效果，正则并不是这么干活的，而且是否贪婪又牵扯到优化，但是还没入门呢，操那闲心，用起来再说。<br>
+<br>
+<font color="red">{n}</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体多少次，不能多不能少。如<font color="red">1{3}</font>，就必须是111。<br>
+<br>
+<font color="red">{n,}</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最少几次，上不封顶。如<font color="red">1{3,}</font>，111也可，11111也可。<br>
+<br>
+<font color="red">{n,m}</font>&nbsp;&nbsp;&nbsp;&nbsp;最少几次，最多几次。如<font color="red">1{3,5}</font>，只有111、1111、11111合格。<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<font color="red">\</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;转义，顾名思义，转变含义。当然，完全可以理解为<font color="red">\</font>和其它字符的组合。为什么要转义，因为字符不够用，往电脑里添新字符麻烦，别人也不认，谁都能自造符号的好时代一去不复返了。d是字母d，要它当数字用，我知道，你也知道，电脑不知道，就需要用<font color="red">\</font>来转义，写成<font color="red">\d</font>电脑就明白了。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">\d</font>是从“原含义”转成“新含义”，还一种则是从“新含义”转成“原含义”，这些字符在正则中默认是“新含义”，<font color="red">.</font>就是典型。如果我就要找一个“点”，而不是“任一字符”，就写成<font color="red">\.</font>。其它还有<font color="red">\*</font>、<font color="red">\+</font>、<font color="red">\?</font>、<font color="red">\^</font>、<font color="red">\$</font>、<font color="red">\(</font>、<font color="red">\)</font>、<font color="red">\[</font>、<font color="red">\]</font>、<font color="red">\{</font>、<font color="red">\}</font>，这些符号在正则中默认是“新含义”，如果就要找星号加号问号括号什么的，就需要转义。<font color="red">http://www.baidu.com/s?wd=123</font>就找不到http://www.baidu.com/s?wd=123。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">\</font>本身也是默认“新含义”，所以别忘了<font color="red">\\</font>，如用正则查找\d，就要写成<font color="red">\\d</font>，查找\\d自然就是<font color="red">\\\\d</font>。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">\</font>是老好人，不用转的转了，也没问题，如js中/需要转义，http://就得写成<font color="red">http:\/\/</font>，编辑器中/不需要转义，但直接拿<font color="red">http:\/\/</font>来用也没问题。注意不是“不该转”的转了，比如<font color="red">\1</font>就不能当1用，这就是接下来要说的<font color="red">()</font>。<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<font color="red">()</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚才我们说括号就是括起来的算“一个”，其实它同时有“储存”作用，找到的东西正则先存了起来，等待以后调用。怎么调用呢，<font color="red">\</font>、<font color="red">$加数字</font>。其中在“查找”中用<font color="red">\</font>，“替换为”中用<font color="red">$</font>，一些软件则都用<font color="red">\</font>也可以。数字就是数左括号<font color="red">(</font>，不管它怎么嵌套，第几个左括号<font color="red">(</font>，就写第几个数。调用时写<font color="red">\1</font>则调用第一对<font color="red">()</font>里的内容，<font color="red">\2</font>第二对……有的最多到<font color="red">\9</font>，有的可以到<font color="red">\99</font>。到<font color="red">\99</font>的，如果写<font color="red">\12</font>，正则会帮你找第12对括号里的内容，而我其实是想要第1对，后面就是个数字2，这时候写<font color="red">\012</font>就行了。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;把6日5月1234年，换为1234年5月6日。查找<font color="red">(\d*日)(\d*月)(\d*年)</font>，替换为<font color="red">\3\2\1</font>（有的需写做<font color="red">$3$2$1</font>）。再如查找<font color="red">(\d*)日(\d*)月(\d*)年</font>，替换为<font color="red">\3-\2-\1</font>。不过因为贪婪，这样写更安全一点<font color="red">\d\d?</font>、<font color="red">\d\d\d\d</font>。
+<br>
+<br>
+<font color="red">(?:)</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;跟<font color="red">()</font>的区别就是不储存。不需要储存就别存，节约内存提升效率，绿色环保节能低碳、清洁减排人文生态。<font color="red">丁(一|二)</font>如果不需要调用就当写为<font color="red">丁(?:一|二)</font>。那么猜猜，当<font color="red">()</font>和<font color="red">(?:)</font>都有时，怎么数？没错，<font color="red">(?:)</font>不算数！<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>　　练习一下，本页标红的均为正则，但看着还是不够醒目，那就加粗一下，Akelpad打开htm源文件，标红是这样&lt;font&nbsp;color=&quot;red&quot;&gt;<font color="red">红不粗</font>&lt;/font&gt;，加粗就是再用&lt;b&gt;&lt;/b&gt;把&lt;font&nbsp;color=&quot;red&quot;&gt;&lt;/font&gt;套起来，就是这样：&lt;b&gt;&lt;font&nbsp;color=&quot;red&quot;&gt;<b><font color="red">红又粗</font></b>&lt;/font&gt;&lt;/b&gt;。<br>
+<br>　　查找：<font color="red">(&lt;font&nbsp;color=&quot;red&quot;&gt;[^&lt;]+&lt;/font&gt;)</font><br>
+<br>　　替换：<font color="red">&lt;b&gt;\1&lt;/b&gt;</font><br>
+<br>　　先用<font color="red">()</font>括起来，之后用<font color="red">\1</font>调用。<font color="red">[^&lt;]</font>就是除<以外的任意字符，这样就到<即止。为什么不用<font color="red">.+?</font>呢，因为贪婪比非贪婪效率高点，当然就这次来说打字的时间都省不回来。为什么用<font color="red">+</font>不用<font color="red">*</font>呢，因为没有0的情况，我写的我知道，<font color="red">+</font>打着多方便啊，小键盘一碰就完，<font color="red">*</font>得俩手指头。<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>　　<font color="red">[^]</font>可以排除单个字符，便于用贪婪模式，那么查找js代码&lt;script&gt;&lt;/script&gt;，用<font color="red">&lt;script&gt;[^&lt;/script&gt;]+&lt;/script&gt;</font>行不行？不行，<font color="red">[^]</font>做不到排除字符串。这句要求&lt;script&gt;&lt;/script&gt;之间不能有&lt;、/、s、c、r、i、p、t、&gt;，可惜js里经常有，结果很多js就找不到了。排除字符串要用&#8220;预查&#8221;。<br>
+<br>
+<font color="red">(?=)</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正向肯定预查、顺序肯定环视、零宽度正预测先行断言。晕没？都断言了，多逻辑多哲学啊。甭理它，让我们扒光它。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先，哪是前哪是后？是还没到的“前边”还是过去了的“之前”？很简单，想象你从文本“首”向“尾”跑，眼前的那个“前”就是“前”，所以是还没到的“前边”。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其次，肯定、否定。这个好说，“是”这个字符串，或者“不是”这个字符串，有时候我们要“是”的，有时候要“不是”的。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，零宽度。逼格爆满！还记得前面的<font color="red">(123)*</font>吗？这四兄弟也是一样，它们找到的不是“字符”，而是“位置”。位置就是字符之间，光标在那闪来闪去的地方。至于怎么用它来找字符，后面举例说明。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那么，逼格最高的说法“零宽度正预测先行断言”断句为“零宽度、正、预测先行、断言”，等于“位置、是、向前、判断”。这三种说法里的位置、预查、环视每句都一样，全都删掉删掉，四种方式其实就是：向前看+肯定、向前看+否定、向后看+肯定、向后看+否定，还是人话好记啊。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">(?=123)</font>的意思就是：找这样一个位置，它的前（右）面是123。a123b中，a和1之间的那个地方。<br>
+<br>
+<font color="red">(?!)</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正向否定预查、顺序否定环视、零宽度负预测先行断言。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;看见<font color="red">!</font>没，程序出错，嘣！一警告框闪亮登场，里面就有这玩意，5秒自毁开始倒数，10、9……<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">(?!123)</font>的意思就是：找这样一个位置，它的前（右）面不是123。a123b中，除了a和1之间的那个地方，哪里都行，包括a前b后。<br>
+<br>
+<font color="red">(?<=)</font>&nbsp;&nbsp;&nbsp;&nbsp;反向肯定预查、逆序肯定环视、零宽度正回顾后发断言。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;看见<font color="red"><</font>没，跑着跑着扭头往回看，就这感觉。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">(?&lt;=123)</font>的意思就是：找这样一个位置，它的后（左）面是123。a123b中，3和b之间的那个地方。<br>
+<br>
+<font color="red">(?&lt;!)</font>&nbsp;&nbsp;&nbsp;&nbsp;反向否定预查、逆序否定环视、零宽度负回顾后发断言。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">(?&lt;!123)</font>的意思就是：找这样一个位置，它的后（左）面不是123。a123b中，除了3和b之间的那个地方，哪里都行，包括a前b后。<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各软件基本都能往前看，但能往回看的少点，就算能还有的不一样，找到了“字符”而不是“位置”，仿佛往回看难度高。想想也是，跑着跑着，冒出个裁判：“看见前边那棵树没？”“嗯？”“在它前边停下。”“没问题！”如果裁判：“半小时前经过的那棵树记得？”“嗯？”“在它前边停下。”“……啊～打～”<br>
+<br>
+　　以html标签为例，我们要找一对&lt;div&gt;&lt;/div&gt;，并且其中不能有其它&lt;div&gt;&lt;/div&gt;嵌套，也就是最核心最里面的那一对&lt;div&gt;&lt;/div&gt;。<br>
+<br>
+　　分解开来是这样：<br>
+<br>
+　　1.先找到一个&lt;div，由于&lt;div&gt;中可能有属性，所以我们找&lt;div。<br>
+<br>
+　　2.逐一查&lt;div后面的字符，这个字符的前面不能是&lt;/div&gt;，直到没有这样的字符为止。<br>
+<br>
+　　3.如果紧接着是&lt;/div&gt;，则查找成功，否则回到第一步查找下一个&lt;div。<br>
+<br>
+　　写成正则，<font color="red">&lt;div(?!&lt;/div&gt;)*&lt;/div&gt;</font>，&lt;div开头，前面不是&lt;/div&gt;的任意个字符，&lt;/div&gt;结尾。<br>
+<br>
+　　一试，不能用，就是因为<font color="red">(?!&lt;/div&gt;)</font>只能找到“位置”。没办法，组合一下，<font color="red">(?!&lt;/div&gt;)</font>后面加一个<font color="red">.</font>，然后整体括起来，最后这个括起来的表达式再加<font color="red">*</font>，无需储存用<font color="red">?:</font>，就变成了<font color="red">(?:(?!&lt;/div&gt;).)*</font>这样。它的意思就是：一个在“‘前面不是&lt;/div&gt;’的‘位置’”的右边的任意字符。分开说：有这样一个字符，它在这样一个“位置”的右边，这个“位置”的前面不是&lt;/div&gt;。这样的字符组成一串，就是我们要的了。不过为了方便，记忆时可以跳过“位置”，直接当作：有这样一个字符，它的前面不是&lt;/div&gt;。<br>
+<br>
+　　那么“这样一个字符”在“位置”的左边行不行，写成<font color="red">(?:.(?!&lt;/div&gt;))*</font>会如何？也行，但最后会少一个字符，需要补上，<font color="red">(?:.(?!&lt;/div&gt;))*.</font>这样就可以了。因为最后一个字符和&lt;/div&gt;之间的那个“位置”不合要求，该“位置”左边的最后一个字符也就漏掉了。实际上如果不补就什么都找不到，想想<font color="red">(?:.(?!&lt;/div&gt;))*&lt;/div&gt;</font>是什么意思？字符的右边不是&lt;/div&gt;，最后还得跟着&lt;/div&gt;，不存在啊。<br>
+<br>
+　　最终我们写成<font color="red">&lt;div(?:(?!&lt;/div&gt;).)*&lt;/div&gt;</font>，可以找到&lt;div&gt;1&lt;/div&gt;。但问题又来了，&lt;div&gt;&lt;/div&gt;之间有换行的找不到啊？这是因为<font color="red">.</font>不包括换行符，理论上应当写作<font color="red">[.\n]</font>，可惜有的软件不能用，换个法子<font color="red">[\s\S]</font>——空白或者非空白都可以，这就行了，当然<font color="red">[\d\D]</font>、<font color="red">[\w\W]</font>也一样。<br>
+<br>
+　　改为<font color="red">&lt;div(?:(?!&lt;/div&gt;)[\s\S])*&lt;/div&gt;</font>有换行的也解决了。<br>
+<br>
+　　再试试，&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;怎么会找到&lt;div&gt;&lt;div&gt;1&lt;/div&gt;？看来只“否定”末尾标签&lt;/div&gt;不行，还得一并“否定”开始标签&lt;div。<br>
+<br>
+　　“<font color="red">|</font>”正是需要的<br>
+　　<font color="red">&lt;div(?:(?!(?:&lt;div|&lt;/div&gt;))[\s\S])*&lt;/div&gt;</font><br>
+<br>
+　　<font color="red">&lt;div|&lt;/div&gt;</font>，两边是不是挺像的，提取公因式，<font color="red">&lt;/?div</font>也能用嘛。<br>
+　　<font color="red">&lt;div(?:(?!&lt;/?div)[\s\S])*&lt;/div&gt;</font><br>
+<br>
+　　如果要找其中一对怎么办，比如要找第二对？那就需要压入堆栈了，学它早着呢。<br>
+　　&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;<br>
+
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<a href="http://baike.baidu.com/view/94238.htm" target=_blank>正则表达式_百度百科</a><br>
+<br>
+<a href="http://www.jb51.net/tools/zhengze.html" target=_blank>正则表达式30分钟入门教程_脚本之家</a><br>
+<br>
+<a href="http://www.jb51.net/tools/regex.htm" target=_blank>正则表达式,常用的正则表达式,js正则表达式,正则表达式数字,正则表达式邮箱_脚本之家</a><br>
+<br>
+<a href="http://www.jb51.net/article/31168.htm" target=_blank>正则表达式的优化全面详解( 三江小渡)_正则表达式_脚本之家</a><br>
+<br>
+<a href="http://www.cnblogs.com/yitian/archive/2008/11/14/1333569.html" target=_blank>正则表达式的汉字匹配 - 易 天 - 博客园</a><br>
+<br>
+<a href="http://www.cnblogs.com/yuzhongwusan/archive/2012/11/26/2788981.html" target=_blank>贪婪与非贪婪模式 - yuzhongwusan - 博客园</a><br>
+<br>
+<a href="http://book.51cto.com/art/200801/63492.htm" target=_blank>精通正则表达式（第3版）_读书频道_51CTO.COM_领先的中文IT技术网站</a><br>
+<br>
+<a href="http://book.51cto.com/art/200801/64600.htm" target=_blank>占有优先量词和固化分组 - 51CTO.COM</a><br>
+<br>
+<a href="http://book.51cto.com/art/200801/64601.htm" target=_blank>占有优先量词，?+、*+、++和{m,n}+ - 51CTO.COM</a><br>
+<br>
+<a href="http://www.imkevinyang.com/2009/07/使用正则表达式匹配嵌套html标签.html" target=_blank>使用正则表达式匹配嵌套Html标签 | 简单生活 — Kevin Yang的博客</a><br>
+<br>
+<a href="http://www.matrix67.com/blog/archives/1089" target=_blank>趣题：用正则表达式判断一个二进制数是否能被3整除 | Matrix67: The Aha Moments</a><br>
+<br>
+
+</td>
+<td width=1%></td>
+</tr>
+</table>
